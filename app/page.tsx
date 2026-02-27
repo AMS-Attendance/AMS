@@ -1,6 +1,7 @@
+﻿"use client";
+
+import { LandingPage } from "@/components/organisms/landing-page";
 
 export default function Home() {
-  return <div className="bg-gray-100 min-h-screen">
-    Attendance Management System
-  </div>;
+  return <LandingPage />;
 }
