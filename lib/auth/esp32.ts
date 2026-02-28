@@ -24,7 +24,7 @@ export function verifyEsp32Key(
   if (apiKey === ESP32_API_KEY) return null;
 
   console.warn(
-    `[ESP32 Auth] Invalid key from ${req.headers.get("x-forwarded-for") ?? req.ip ?? "unknown"}`,
+    `[ESP32 Auth] Invalid key from ${req.headers.get("x-forwarded-for") ?? "unknown"}`,
   );
 
   return NextResponse.json(

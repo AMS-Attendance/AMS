@@ -5,8 +5,12 @@
  * to insert all students into the Supabase users table.
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Read the JSON file
 const jsonPath = path.join(__dirname, '..', 'test.users.json');

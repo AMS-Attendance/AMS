@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import {
   Radio,
@@ -157,7 +157,7 @@ function LiveStats({
 }
 
 // ── Main Page ──────────────────────────────────────────────────────────────
-export default function LiveAttendancePage() {
+function LiveAttendancePage() {
   const searchParams = useSearchParams();
   const { data: lectures = [] } = useLectures();
   const [selectedLecture, setSelectedLecture] = useState<string>("");
@@ -320,5 +320,27 @@ export default function LiveAttendancePage() {
         </>
       )}
     </div>
+  );
+}
+
+// ── Export with Suspense boundary ──────────────────────────────────────────
+export default function LiveAttendancePageWrapper() {
+  return (
+    <Suspense fallback={
+      <div className="space-y-6">
+        <div className="flex items-center gap-3">
+          <Radio className="h-6 w-6 text-red-400 animate-pulse" />
+          <h1 className="heading-font text-2xl font-bold text-white">Live Attendance</h1>
+        </div>
+        <Card className="border-slate-800 bg-slate-900/50">
+          <CardContent className="p-12 text-center">
+            <div className="h-8 w-8 mx-auto mb-3 animate-spin rounded-full border-2 border-slate-700 border-t-blue-500" />
+            <p className="text-sm text-slate-400">Loading live attendance...</p>
+          </CardContent>
+        </Card>
+      </div>
+    }>
+      <LiveAttendancePage />
+    </Suspense>
   );
 }

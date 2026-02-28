@@ -143,7 +143,7 @@ function ModuleFormDialog({
               <Label className="text-slate-300">Credits</Label>
               <Select
                 value={form.credits}
-                onValueChange={(v) => setForm({ ...form, credits: v })}
+                onValueChange={(v: string) => setForm({ ...form, credits: v })}
               >
                 <SelectTrigger className="border-slate-700 bg-slate-900 text-white">
                   <SelectValue placeholder="Credits" />
@@ -173,7 +173,7 @@ function ModuleFormDialog({
             <Label className="text-slate-300">Semester</Label>
             <Select
               value={form.semester}
-              onValueChange={(v) => setForm({ ...form, semester: v })}
+              onValueChange={(v: string) => setForm({ ...form, semester: v })}
             >
               <SelectTrigger className="border-slate-700 bg-slate-900 text-white">
                 <SelectValue placeholder="Semester" />

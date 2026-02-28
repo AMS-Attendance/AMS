@@ -47,7 +47,7 @@ import {
   useToggleLecturerActive,
   useDeleteLecturer,
 } from "@/lib/api/client";
-import type { AdminLecturer, ApiResponse } from "@/lib/types";
+import type { AdminLecturer } from "@/lib/types";
 
 // ── Create Lecturer Dialog ─────────────────────────────────────────────────
 function CreateLecturerDialog() {
@@ -70,7 +70,7 @@ function CreateLecturerDialog() {
     }
 
     createLecturer.mutate(form, {
-      onSuccess: (data: ApiResponse) => {
+      onSuccess: (data) => {
         if (data.success) {
           setOpen(false);
           setForm({ name: "", email: "", password: "" });

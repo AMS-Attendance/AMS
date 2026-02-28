@@ -202,7 +202,7 @@ function LectureFormDialog({
             <Label className="text-slate-300">Module</Label>
             <Select
               value={form.module_id}
-              onValueChange={(v) => setForm({ ...form, module_id: v })}
+              onValueChange={(v: string) => setForm({ ...form, module_id: v })}
             >
               <SelectTrigger className="border-slate-700 bg-slate-900 text-white">
                 <SelectValue placeholder="Select module" />
@@ -241,7 +241,7 @@ function LectureFormDialog({
               <Label className="text-slate-300">Duration</Label>
               <Select
                 value={form.duration_hours}
-                onValueChange={(v) => setForm({ ...form, duration_hours: v })}
+                onValueChange={(v: string) => setForm({ ...form, duration_hours: v })}
               >
                 <SelectTrigger className="border-slate-700 bg-slate-900 text-white">
                   <SelectValue />
@@ -261,7 +261,7 @@ function LectureFormDialog({
               <Label className="text-slate-300">Type</Label>
               <Select
                 value={form.type}
-                onValueChange={(v) =>
+                onValueChange={(v: string) =>
                   setForm({ ...form, type: v as LectureType })
                 }
               >
@@ -291,7 +291,7 @@ function LectureFormDialog({
               <Label className="text-slate-300">Status</Label>
               <Select
                 value={form.status}
-                onValueChange={(v) =>
+                onValueChange={(v: string) =>
                   setForm({ ...form, status: v as LectureStatus })
                 }
               >

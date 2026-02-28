@@ -5,10 +5,14 @@
  * Make sure you have SUPABASE_URL and SUPABASE_SERVICE_KEY in your .env file.
  */
 
-const fs = require('fs');
-const path = require('path');
-const { createClient } = require('@supabase/supabase-js');
-require('dotenv/config');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { createClient } from '@supabase/supabase-js';
+import 'dotenv/config';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
