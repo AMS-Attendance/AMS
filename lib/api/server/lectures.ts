@@ -11,7 +11,7 @@ import type {
 
 // ── Get Lectures for Lecturer ──────────────────────────────────────────────
 export async function getLecturesAction(
-  moduleId?: string
+  moduleId?: string,
 ): Promise<ApiResponse<LectureWithStats[]>> {
   try {
     const session = await getSession();
@@ -32,10 +32,14 @@ export async function getLecturesAction(
     if (modErr) return { success: false, message: modErr.message };
 
     const moduleIds = (modules ?? []).map((m: { id: string }) => m.id);
-    if (moduleIds.length === 0) return { success: true, message: "No modules", data: [] };
+    if (moduleIds.length === 0)
+      return { success: true, message: "No modules", data: [] };
 
     const moduleMap = new Map(
-      (modules ?? []).map((m: { id: string; code: string; name: string }) => [m.id, m])
+      (modules ?? []).map((m: { id: string; code: string; name: string }) => [
+        m.id,
+        m,
+      ]),
     );
 
     const { data: lectures, error } = await supabase
@@ -49,7 +53,9 @@ export async function getLecturesAction(
     const result: LectureWithStats[] = [];
 
     for (const lec of lectures ?? []) {
-      const mod = moduleMap.get(lec.module_id) as { code: string; name: string } | undefined;
+      const mod = moduleMap.get(lec.module_id) as
+        | { code: string; name: string }
+        | undefined;
 
       const { count: totalStudents } = await supabase
         .from("module_students")
@@ -60,13 +66,7 @@ export async function getLecturesAction(
         .from("attendance")
         .select("id", { count: "exact", head: true })
         .eq("lecture_id", lec.id)
-        .in("status", ["PRESENT", "LATE"]);
-
-      const { count: lateCount } = await supabase
-        .from("attendance")
-        .select("id", { count: "exact", head: true })
-        .eq("lecture_id", lec.id)
-        .eq("status", "LATE");
+        .eq("status", "PRESENT");
 
       const { count: absentCount } = await supabase
         .from("attendance")
@@ -80,7 +80,6 @@ export async function getLecturesAction(
         module_name: mod?.name ?? "",
         total_students: totalStudents ?? 0,
         present_count: presentCount ?? 0,
-        late_count: lateCount ?? 0,
         absent_count: absentCount ?? 0,
       });
     }
@@ -93,7 +92,7 @@ export async function getLecturesAction(
 
 // ── Get Single Lecture ─────────────────────────────────────────────────────
 export async function getLectureByIdAction(
-  lectureId: string
+  lectureId: string,
 ): Promise<ApiResponse<LectureWithStats>> {
   try {
     const session = await getSession();
@@ -126,13 +125,7 @@ export async function getLectureByIdAction(
       .from("attendance")
       .select("id", { count: "exact", head: true })
       .eq("lecture_id", lec.id)
-      .in("status", ["PRESENT", "LATE"]);
-
-    const { count: lateCount } = await supabase
-      .from("attendance")
-      .select("id", { count: "exact", head: true })
-      .eq("lecture_id", lec.id)
-      .eq("status", "LATE");
+      .eq("status", "PRESENT");
 
     const { count: absentCount } = await supabase
       .from("attendance")
@@ -149,7 +142,6 @@ export async function getLectureByIdAction(
         module_name: mod.name,
         total_students: totalStudents ?? 0,
         present_count: presentCount ?? 0,
-        late_count: lateCount ?? 0,
         absent_count: absentCount ?? 0,
       },
     };
@@ -160,7 +152,7 @@ export async function getLectureByIdAction(
 
 // ── Create Lecture ─────────────────────────────────────────────────────────
 export async function createLectureAction(
-  payload: CreateLecturePayload
+  payload: CreateLecturePayload,
 ): Promise<ApiResponse<LectureWithStats>> {
   try {
     const session = await getSession();
@@ -176,9 +168,23 @@ export async function createLectureAction(
 
     if (!mod) return { success: false, message: "Module not found" };
 
+    // Build insert data, only including defined fields so Postgres defaults apply
+    const insertData: Record<string, unknown> = {
+      module_id: payload.module_id,
+      title: payload.title,
+      scheduled_at: payload.scheduled_at,
+    };
+    if (payload.type !== undefined)
+      insertData.type = payload.type.toUpperCase();
+    if (payload.duration_hours !== undefined)
+      insertData.duration_hours = payload.duration_hours;
+    if (payload.location !== undefined) insertData.location = payload.location;
+    if (payload.description !== undefined)
+      insertData.description = payload.description;
+
     const { data, error } = await supabase
       .from("lectures")
-      .insert(payload)
+      .insert(insertData)
       .select()
       .single();
 
@@ -193,7 +199,6 @@ export async function createLectureAction(
         module_name: mod.name,
         total_students: 0,
         present_count: 0,
-        late_count: 0,
         absent_count: 0,
       },
     };
@@ -204,13 +209,19 @@ export async function createLectureAction(
 
 // ── Update Lecture ─────────────────────────────────────────────────────────
 export async function updateLectureAction(
-  payload: UpdateLecturePayload
+  payload: UpdateLecturePayload,
 ): Promise<ApiResponse<LectureWithStats>> {
   try {
     const session = await getSession();
     if (!session) return { success: false, message: "Unauthorized" };
 
-    const { id, ...updates } = payload;
+    const { id, ...rawUpdates } = payload;
+
+    // Ensure type is uppercase for DB CHECK constraint
+    const updates = { ...rawUpdates };
+    if (updates.type) {
+      updates.type = updates.type.toUpperCase() as typeof updates.type;
+    }
 
     // Get current lecture to verify ownership
     const { data: existing } = await supabase
@@ -248,13 +259,7 @@ export async function updateLectureAction(
       .from("attendance")
       .select("id", { count: "exact", head: true })
       .eq("lecture_id", id)
-      .in("status", ["PRESENT", "LATE"]);
-
-    const { count: lateCount } = await supabase
-      .from("attendance")
-      .select("id", { count: "exact", head: true })
-      .eq("lecture_id", id)
-      .eq("status", "LATE");
+      .eq("status", "PRESENT");
 
     const { count: absentCount } = await supabase
       .from("attendance")
@@ -271,7 +276,6 @@ export async function updateLectureAction(
         module_name: mod.name,
         total_students: totalStudents ?? 0,
         present_count: presentCount ?? 0,
-        late_count: lateCount ?? 0,
         absent_count: absentCount ?? 0,
       },
     };
@@ -282,7 +286,7 @@ export async function updateLectureAction(
 
 // ── Delete Lecture ─────────────────────────────────────────────────────────
 export async function deleteLectureAction(
-  lectureId: string
+  lectureId: string,
 ): Promise<ApiResponse> {
   try {
     const session = await getSession();

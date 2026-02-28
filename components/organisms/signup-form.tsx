@@ -17,7 +17,6 @@ import * as yup from "yup";
 
 const ROLES: { value: UserRole; label: string; icon: React.ReactNode }[] = [
   { value: "student", label: "Student", icon: <GraduationCap size={16} /> },
-  { value: "lecturer", label: "Lecturer", icon: <BookOpen size={16} /> },
 ];
 
 export function SignupForm() {

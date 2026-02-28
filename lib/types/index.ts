@@ -2,6 +2,7 @@ export { type User, type UserRole, type LoginPayload, type SignupPayload, type A
 export { type Feature, type Step, type Stat } from "./homepage";
 export {
   type LectureType,
+  LECTURE_TYPE_LABELS,
   type LectureStatus,
   type AttendanceStatus,
   type AttendanceMethod,
@@ -27,4 +28,8 @@ export {
   type ModuleAttendanceSummary,
   type SSEAttendanceEvent,
   type ApiResponse,
+  type AdminStats,
+  type AdminLecturer,
+  type CreateLecturerPayload,
+  type AdminRecentActivity,
 } from "./dashboard";

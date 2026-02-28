@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 import {
   Radio,
   Wifi,
   WifiOff,
   RefreshCw,
-  Clock,
   CheckCircle2,
   AlertCircle,
   CreditCard,
@@ -67,9 +67,7 @@ function ConnectionStatus({ status, onReconnect }: { status: SSEStatus; onReconn
 function FeedItem({ record, isNew }: { record: AttendanceWithStudent; isNew: boolean }) {
   const statusConfig: Record<string, { color: string; icon: React.ElementType }> = {
     PRESENT: { color: "text-green-400 bg-green-500/20 border-green-500/30", icon: CheckCircle2 },
-    LATE: { color: "text-yellow-400 bg-yellow-500/20 border-yellow-500/30", icon: Clock },
     ABSENT: { color: "text-red-400 bg-red-500/20 border-red-500/30", icon: AlertCircle },
-    EXCUSED: { color: "text-blue-400 bg-blue-500/20 border-blue-500/30", icon: AlertCircle },
   };
 
   const cfg = statusConfig[record.status] ?? statusConfig.PRESENT;
@@ -129,22 +127,15 @@ function LiveStats({
   totalStudents: number;
 }) {
   const present = records.filter((r) => r.status === "PRESENT").length;
-  const late = records.filter((r) => r.status === "LATE").length;
   const rfidCount = records.filter((r) => r.method === "rfid").length;
-  const attendanceRate = totalStudents > 0 ? Math.round(((present + late) / totalStudents) * 100) : 0;
+  const attendanceRate = totalStudents > 0 ? Math.round((present / totalStudents) * 100) : 0;
 
   return (
-    <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
       <Card className="border-slate-800 bg-slate-900/50">
         <CardContent className="p-3 text-center">
           <p className="heading-font text-2xl font-bold text-green-400">{present}</p>
           <p className="text-xs text-slate-500">Present</p>
-        </CardContent>
-      </Card>
-      <Card className="border-slate-800 bg-slate-900/50">
-        <CardContent className="p-3 text-center">
-          <p className="heading-font text-2xl font-bold text-yellow-400">{late}</p>
-          <p className="text-xs text-slate-500">Late</p>
         </CardContent>
       </Card>
       <Card className="border-slate-800 bg-slate-900/50">
@@ -167,12 +158,21 @@ function LiveStats({
 
 // ── Main Page ──────────────────────────────────────────────────────────────
 export default function LiveAttendancePage() {
+  const searchParams = useSearchParams();
   const { data: lectures = [] } = useLectures();
   const [selectedLecture, setSelectedLecture] = useState<string>("");
   const { data: existingRecords = [] } = useLectureAttendance(selectedLecture);
   const { records: sseRecords, status, reconnect } = useAttendanceSSE(
     selectedLecture || null
   );
+
+  // Auto-select lecture from URL search param
+  useEffect(() => {
+    const lectureId = searchParams.get("lecture_id");
+    if (lectureId && !selectedLecture) {
+      setSelectedLecture(lectureId);
+    }
+  }, [searchParams, selectedLecture]);
 
   // Track newly arrived IDs for animation
   const [newIds, setNewIds] = useState<Set<string>>(new Set());

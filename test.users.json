@@ -1,0 +1,7221 @@
+[
+{
+  "_id": {
+    "$oid": "692e5f156f4a2dea8fc15c52"
+  },
+  "name": "Siththara M.S.S.",
+  "email": "siththaramss.22@uom.lk",
+  "password": "$2b$10$iyYjiHJ7W4/cOM1NmJLoQOo6RQMo/NvNH/6u4pux8ZVKDdKsLAFoi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224187F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:57.207Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:58.458Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f156f4a2dea8fc15c55"
+  },
+  "name": "Serasinghe S.T.H.C.H.",
+  "email": "sthchs.22@uom.lk",
+  "password": "$2b$10$H.1DoX/wX.l9gi9W557D8.52n/g3qay7ypXlAY2tsfAtVKHE5ndV2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224179H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:57.478Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:22.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f156f4a2dea8fc15c58"
+  },
+  "name": "Sharan R.",
+  "email": "sharanr.22@uom.lk",
+  "password": "$2b$10$sw1.4z6th1dKT19B80ey3.jm/zRbYx6hoEs0EXwcaIVSVkFMqs53y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224254J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:57.752Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:21.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f166f4a2dea8fc15c5b"
+  },
+  "name": "M.K.A. Wickramasinghe",
+  "email": "wickramasinghemka.22@uom.lk",
+  "password": "$2b$10$vAy4V/33yhgHKp3/WX7R/.NV4KuYFpihzwJrtpO1YFjf7d3C0rPmq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224216V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:58.017Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:14.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f166f4a2dea8fc15c5e"
+  },
+  "name": "Vethishan R",
+  "email": "vethishanr.22@uom.lk",
+  "password": "$2b$10$jRTrROw90Q0i5koM0nW7U.4NV56dQNfzBll4SWxvAHWwQ54F/BiyO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224249A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:58.288Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:48.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f166f4a2dea8fc15c61"
+  },
+  "name": "Thajeevan V.",
+  "email": "thajeevanv.22@uom.lk",
+  "password": "$2b$10$RAzAlH155uu1sgZC.kWqr.7IvfrtdCB7VmQ363UjYypcb8q86Xx8W",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224252C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:58.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:02.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f166f4a2dea8fc15c64"
+  },
+  "name": "T.V.S Kaushalya",
+  "email": "kaushalyatvs.22@uom.lk",
+  "password": "$2b$10$kAoFvNhh0/78HcQDziD3PuI7gG7H0fV8DEzUvm99WTlf0iIZvxXLG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225053B",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:58.823Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:37:58.823Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f176f4a2dea8fc15c67"
+  },
+  "name": "Lingaraj U.",
+  "email": "lingaraju.22@uom.lk",
+  "password": "$2b$10$HreDkFvfqu2ezH5kM/OGNun7evbw6a2ZfJ5sEv9ov6oIL1QT.vOO6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224116N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:59.089Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:06.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f176f4a2dea8fc15c6a"
+  },
+  "name": "M.R.M.Muadh",
+  "email": "mrmmuadh.22@uom.lk",
+  "password": "$2b$10$vK5FH3AgknffpQ5nbV7g6uo7x01vSwn05e9k0ZbKHYqbldD3hIZh2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224127A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:59.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:27.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f176f4a2dea8fc15c6d"
+  },
+  "name": "Dinuja J.",
+  "email": "dinujaj.22@uom.lk",
+  "password": "$2b$10$amjWiyHlxkc4FoJOlYrGCOdvqze58zmGr.q/R2vD4GVCErn1hD7ru",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224256R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:59.617Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:43.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f176f4a2dea8fc15c70"
+  },
+  "name": "M.N.Kolombage",
+  "email": "mnkolombage.22@uom.lk",
+  "password": "$2b$10$lLIha3n6vF5jL/vQv9La0eyHtFgBCyqWVbhq.mVrera9UM.vyU7NK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224108R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:37:59.879Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:33.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f186f4a2dea8fc15c73"
+  },
+  "name": "Vithush V.",
+  "email": "vithushv.22@uom.lk",
+  "password": "$2b$10$uO7uiJgvOK9guxqCqZ9i6OnsfGvM4L3GCQ16wu6rZNFLt2okGBcRO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224205L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:00.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:20.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f186f4a2dea8fc15c76"
+  },
+  "name": "Swetha Nethmi",
+  "email": "nethmis.22@uom.lk",
+  "password": "$2b$10$14OrUzLU6wNHzfKGWi6B1OlS7dJyryrp/HsuzunTqVRUytuyHDJSy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224134R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:00.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:00.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f186f4a2dea8fc15c79"
+  },
+  "name": "Wickramage D.N",
+  "email": "wickramagedn.22@uom.lk",
+  "password": "$2b$10$9GV7pfOdIzgLhKgvB6fxHeETsCHABb2QpVFZRcSH0Ve8mvrgWouCa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224215R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:00.711Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:21.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f196f4a2dea8fc15c7c"
+  },
+  "name": "Perera SNA",
+  "email": "pererasna.22@uom.lk",
+  "password": "$2b$10$l54iO4kyAxlEozTu6jA.muVJSwyTXTmOdndr1XcFTEinUCalzAwgG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224149R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:01.146Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:36.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f196f4a2dea8fc15c7f"
+  },
+  "name": "Perera W.A.D.R.U.",
+  "email": "wadrup.22@uom.lk",
+  "password": "$2b$10$pY6HRxMK9ZbcXa2bzJjBu.GjWTJZ2CB9dPmLgoE5OsZt7xA0Xq4MO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225082L",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:01.848Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:01.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1a6f4a2dea8fc15c82"
+  },
+  "name": "Pallewaththa P.G.L.I.",
+  "email": "pglip.22@uom.lk",
+  "password": "$2b$10$tgl4TQ.CnH1f.RnK54wcQ.AGbNSCxuzihEPs6f0UL90K6huzbP41m",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224143T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:02.129Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:17.495Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1a6f4a2dea8fc15c85"
+  },
+  "name": "Rajapakshe R.D.V.R.",
+  "email": "rdvrr.22@uom.lk",
+  "password": "$2b$10$URqvLX3Zo88HsiJ/ZZ8awecAU/YAzZmV4eON30O89yKSkJe3WwTpK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224157N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:02.569Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:42.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1a6f4a2dea8fc15c88"
+  },
+  "name": "Rambandara R.D.H.M.",
+  "email": "rdhmr.22@uom.lk",
+  "password": "$2b$10$VrvyM.D6B83m5bdkyR.7J.LfjZ1uJP7Twj8aDoGY0BFPLJ0RoKSE.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224159X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:02.856Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:17.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1b6f4a2dea8fc15c8b"
+  },
+  "name": "Madhumalka W K",
+  "email": "madhumalkawk.22@uom.lk",
+  "password": "$2b$10$qkenwxQQ6DyWfhs5lM7eXugcojeT7BIhBNgz73Mth8k3nlq9OP6Bq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225067V",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:03.125Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:03.125Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1b6f4a2dea8fc15c8e"
+  },
+  "name": "Siriwardhana B.K",
+  "email": "siriwardhanabk.22@uom.lk",
+  "password": "$2b$10$e01ofqq7ipMS/uLWdyDykuaG4awuepon2/KMTlvfZllmlbfTDbeu.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224240M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:03.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:24.847Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1b6f4a2dea8fc15c91"
+  },
+  "name": "R.M.Dulanga Nikeshala",
+  "email": "nikeshalar.22@uom.lk",
+  "password": "$2b$10$id7cDihRDdg9NzPYAuIkzuxi9xbfubpzXIEICzM6/M4yfeCxn1I6W",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225017U",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:03.671Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:03.671Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1b6f4a2dea8fc15c94"
+  },
+  "name": "Mathiyalakan A.",
+  "email": "mathiyalakana.22@uom.lk",
+  "password": "$2b$10$tO/W/JDR/CHi7FbdlljFvuIP7fhSdy1eJAnvtAfLv4nDEGezmU3RG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224123H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:03.953Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:20.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1c6f4a2dea8fc15c97"
+  },
+  "name": "Kumara WMMH",
+  "email": "wmmhk.22@uom.lk",
+  "password": "$2b$10$frmhKXnOsRyvUacUvUOiKOrybHMX3Df7ZJqrEVmGnZdg0uaaOzM8O",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225058U",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:04.470Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:04.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1c6f4a2dea8fc15c9a"
+  },
+  "name": "Navoda H.N.",
+  "email": "navodahn.22@uom.lk",
+  "password": "$2b$10$DEyFhMG9WZ2n5h77LBQgK.hFwemUyt9vrKY8oH/tBn5RtaD5iBj6y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224132J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:04.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:39.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1d6f4a2dea8fc15c9d"
+  },
+  "name": "P.G.N.Shehara",
+  "email": "pgnshehara.22@uom.lk",
+  "password": "$2b$10$nOgiLTvsGCaIbQzQIkRDP.aCAZQwzm9SB6lEf/z8y/Ar8NwQsOPeW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224182K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:05.036Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:32.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1d6f4a2dea8fc15ca0"
+  },
+  "name": "Tharuka Deshan",
+  "email": "deshant.22@uom.lk",
+  "password": "$2b$10$d6hDV72oriTCud7r0x2VR.zt00XCkRf8/GyOBv7/xxXiyncsParbm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225023J",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:05.298Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:05.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1d6f4a2dea8fc15ca3"
+  },
+  "name": "R.M.Ayesha Rasanjalee Rathnayake",
+  "email": "rathnayakerr.22@uom.lk",
+  "password": "$2b$10$jnvhcLiFyIluIVV1Nq4mY.OPxY9/23eK5qdWsvSyOdUuO1Qb6AmQa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225094B",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:05.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:05.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1d6f4a2dea8fc15ca6"
+  },
+  "name": "Nayananga T.H.R.S",
+  "email": "thrsn.22@uom.lk",
+  "password": "$2b$10$h.hlexYe6PH4RuFUuAsN8.WGoFyLFDpdQvzZU6/5DDmW4EYYvsg0O",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224133M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:05.811Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:59.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1e6f4a2dea8fc15ca9"
+  },
+  "name": "Wickramadhara EWMY",
+  "email": "ewmyw.22@uom.lk",
+  "password": "$2b$10$zmukD1RAx.blGbAGslX3uOwHaYR/X9tcTOLbQ81C0zQF0E4KNnIie",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224234A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:06.066Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:06.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1e6f4a2dea8fc15cac"
+  },
+  "name": "Thambiliyagoda T.G.C.J.",
+  "email": "tgcjt.22@uom.lk",
+  "password": "$2b$10$lbZL7yneTzwRs//7r0A77OJQTPALXZaWiJLUXUzEUO.nEzDdbo5qW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224191L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:06.321Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:22.032Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1e6f4a2dea8fc15caf"
+  },
+  "name": "Nirmal S.L.M.T.S",
+  "email": "slmtsn.22@uom.lk",
+  "password": "$2b$10$aUffHavfZpRqGopvZfekBOWMTNhpBc8gb727gkyo0ceNHnCueK65e",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224137E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:06.576Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:06.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1e6f4a2dea8fc15cb2"
+  },
+  "name": "M.H.M.Faskath",
+  "email": "mhmfaskath.22@uom.lk",
+  "password": "$2b$10$9ggSa35D42cMEMCjm5EbfeGO0zA38cYZnFhreuCtyGoH7OcDthmYy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224251X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:06.835Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:28.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1f6f4a2dea8fc15cb5"
+  },
+  "name": "Weerasinghe M.S.C.",
+  "email": "weerasinghemsc.22@uom.lk",
+  "password": "$2b$10$CgeAKnDAzyh6VbedwmZqvO6lxyS8CZZ4aPcni2YdxnZLZh00OGBuS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224210X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:07.093Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:11.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1f6f4a2dea8fc15cb8"
+  },
+  "name": "Shashini W.M.P.",
+  "email": "shashiniwmp.22@uom.lk",
+  "password": "$2b$10$qsIfDTSSAflblmTf1v6y5OzsQxDm9HLhfLBYdakMwoP8MB1BQz2im",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224180D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:07.483Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:25.517Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f1f6f4a2dea8fc15cbb"
+  },
+  "name": "Nimhan R.D.S.",
+  "email": "nimhanrds.22@uom.lk",
+  "password": "$2b$10$c0qDQqzSDRzAqYexnvCMxuN.L8DzEvdjOK5EgY4MY/L.HhlvnqRJG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224135V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:07.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:57.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f206f4a2dea8fc15cbe"
+  },
+  "name": "Siriwardhana M S H N",
+  "email": "siriwardhanamshn.22@uom.lk",
+  "password": "$2b$10$ZbubCmLmJISz1GbAPWSbU.zpKlLx0j07UI647cgPyQq1fpM3iTn0G",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224186C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:08.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:07.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f206f4a2dea8fc15cc1"
+  },
+  "name": "V.B.J. Samarasinghe",
+  "email": "samarasinghevbj.22@uom.lk",
+  "password": "$2b$10$nxmPTjeVCKqwI.LSrFYYzO7lqpF5k7E1GfPZ9ocdVyMpg3h1E7wWe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224168A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:08.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:06.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f206f4a2dea8fc15cc4"
+  },
+  "name": "Kavindya Abeykoon",
+  "email": "abeykoonk.22@uom.lk",
+  "password": "$2b$10$mlpqg/5NjaNEWZ7DF6iLp.nmDlHYex5hziPkrgku1H8IelbNbAayG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225001P",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:08.510Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:08.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f206f4a2dea8fc15cc7"
+  },
+  "name": "P.J. Mullegama",
+  "email": "mullegamapj.22@uom.lk",
+  "password": "$2b$10$JjG0Adeg4Ir4ga8p7apXS.nOEXBDuPxzkAPpXvW7q4xKTJ5gx9nSO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224128D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:08.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:16.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f216f4a2dea8fc15cca"
+  },
+  "name": "H.P. Warusawithana",
+  "email": "warusawithanahp.22@uom.lk",
+  "password": "$2b$10$8M2IPd4pJe0hK3x4INOtDOsuNHiLdOdQx3Ix4zblPubGFyjd.zRF6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224209D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:09.024Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:06.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f216f4a2dea8fc15ccd"
+  },
+  "name": "Chamilka mihiraj",
+  "email": "mihirajc.22@uom.lk",
+  "password": "$2b$10$JjyWy2lG9EtqRhsDrYVVteBTf7ZjxbaOxmf3Fx5D0aBs4QNmgejxO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225081H",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:09.278Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:09.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f216f4a2dea8fc15cd0"
+  },
+  "name": "Uthpalawanna J.P.P.",
+  "email": "uthpalawannajpp.22@uom.lk",
+  "password": "$2b$10$kR3Mml.z8OlRztOmjkkUCeU3fxDM07TYMD1UX21WVmq6SohFBsBIS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224202B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:09.538Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:10.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f216f4a2dea8fc15cd3"
+  },
+  "name": "Umayangi K.A.S.",
+  "email": "umayangikas.22@uom.lk",
+  "password": "$2b$10$myPN53/GJ2A2womCcivQWOzaLxRRexkmd4qzDffST4ytgNZaeedca",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224201V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:09.797Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:10.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f226f4a2dea8fc15cd6"
+  },
+  "name": "W. T. M. Weerasinghe",
+  "email": "weerasinghewtm.22@uom.lk",
+  "password": "$2b$10$eCbFiNz8pmtpIwEl.wJlauVDeBWfVE6q0jjWgabuVlGdUhFKm.JYS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224212F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:10.064Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:35.795Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f226f4a2dea8fc15cd9"
+  },
+  "name": "Madushanka A.L.D.G",
+  "email": "aldgm.22@uom.lk",
+  "password": "$2b$10$s5RWun6CDl5DZu2s4g400Omebgw6QfVHuGWNzsXKkrEU.YFnwBMl6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225068B",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:10.337Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:20.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f226f4a2dea8fc15cdc"
+  },
+  "name": "Anjalee Amarakoon",
+  "email": "amarakoona.22@uom.lk",
+  "password": "$2b$10$ShUfMVwHm.1630eGpaY6jOm3F2ImX9R6qax1rEwyo4Buax1BMthC2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225005G",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:10.594Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:10.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f226f4a2dea8fc15cdf"
+  },
+  "name": "Jayawardhana V.P.H.",
+  "email": "jayawardhanavph.22@uom.lk",
+  "password": "$2b$10$3vbPHf0HMa6RwVnZiWHhS.QE2ZG./Cp/QJxLgWYEniFc9BKprYU8a",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224237K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:10.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:08.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f236f4a2dea8fc15ce2"
+  },
+  "name": "Siriwardhana C.R.H.P.E.R.",
+  "email": "crhpers.22@uom.lk",
+  "password": "$2b$10$fzAANxI6tmCTLP2tWMigg.iGLauDJLX3r9kGuFVigJsGYbXbU6TjK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224229M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:11.131Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:10.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f236f4a2dea8fc15ce5"
+  },
+  "name": "J. A. A. N. Sathsara",
+  "email": "sathsarajaan.22@uom.lk",
+  "password": "$2b$10$nqts8bKc94IzRCaO.DEdWuBvlM5CL/pShx3q6wOKgNl/aHc/4B7yy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224174M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:11.401Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:36.871Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f236f4a2dea8fc15ce8"
+  },
+  "name": "Hansinee R.A.I",
+  "email": "hansineerai.22@uom.lk",
+  "password": "$2b$10$c.oG6vZgHURWDkW.G0GIDeBjKt23rxYb2.QVMT2LbZ/H96F/UW7jy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224233U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:11.655Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:11.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f236f4a2dea8fc15ceb"
+  },
+  "name": "Vinuka Fernandopulle",
+  "email": "fernandopullev.22@uom.lk",
+  "password": "$2b$10$.5chTUvdKSo/PpKdew74HuGM6puSvWaBM5WHTFiyobUDBHM/S9YCO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225029H",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:11.913Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:11.913Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f246f4a2dea8fc15cee"
+  },
+  "name": "Rameshsangkar.N",
+  "email": "rameshsangkarn.22@uom.lk",
+  "password": "$2b$10$nF6UqBUNzeffrMUTlcx8DuIkz3GuX2NZoVOCyDjUfsEvcmmEMOBvi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224248U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:12.171Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:02.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f246f4a2dea8fc15cf1"
+  },
+  "name": "Anjana Edirisinghe",
+  "email": "edirisinghea.22@uom.lk",
+  "password": "$2b$10$rnFDJBWlZqIUROtcuUYWKOAYHCbLPBMzFv5nmxMcGk0/2pr8JhI8q",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225025R",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:12.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:12.424Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f246f4a2dea8fc15cf4"
+  },
+  "name": "Tharindi W.P.S.",
+  "email": "tharindiwps.22@uom.lk",
+  "password": "$2b$10$JRqyns/FkCI8dQUMRvL1h.FK34rB.7VVz85EJU.KuCrwfCLhkKVgu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224193U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:12.679Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:17.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f246f4a2dea8fc15cf7"
+  },
+  "name": "M.R.Rakeeb",
+  "email": "mrrakeeb.22@uom.lk",
+  "password": "$2b$10$XizvVDmL2Kv007gQ8j6RYOOC7VsJNU22D1N20MX4RCssmMs2ODDdm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224158T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:12.939Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:01.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f256f4a2dea8fc15cfa"
+  },
+  "name": "Sathsara H.W.S.",
+  "email": "sathsarahws.22@uom.lk",
+  "password": "$2b$10$FGS8imOlKN.g3ag4May0.e4G0x/uO3FLYYEQxCQgSeERWWm2xKX1a",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224173J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:13.199Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:58.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f256f4a2dea8fc15cfd"
+  },
+  "name": "Prakasan R.",
+  "email": "prakasanr.22@uom.lk",
+  "password": "$2b$10$N3ZmTRTXNI5nQYyhqTsVvulLX23Ae.jASiEFTVkTzIL3C5VvxQ4fS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224152U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:13.457Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:07.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f256f4a2dea8fc15d00"
+  },
+  "name": "D.G.A. Kumanjana",
+  "email": "kumanjanadga.22@uom.lk",
+  "password": "$2b$10$let1BC4eEmmanrgGPz1ZtOJvyRaw.24KhsO.QX3iYtSWTBhKTiovC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224114G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:13.725Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:34.799Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f266f4a2dea8fc15d03"
+  },
+  "name": "Kularathna G.G.A.S.",
+  "email": "ggask.22@uom.lk",
+  "password": "$2b$10$iWCU7LdYgsgAPGR5FQeW5.hoQDr0SjrjN4WYFZxJ1.a9gr4LOixBe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224110P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:14.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:07.639Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f266f4a2dea8fc15d06"
+  },
+  "name": "Gamlath G.R.H.K.",
+  "email": "grhkg.22@uom.lk",
+  "password": "$2b$10$gzd3jPTcT7n5.KdjZFsZTe3NXTzSoTOXsSLlfWl0KvUb8fX0PhKLy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225031G",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:14.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:14.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f266f4a2dea8fc15d09"
+  },
+  "name": "Saddhasena AGSS",
+  "email": "agsss.22@uom.lk",
+  "password": "$2b$10$shVJhzEu.08IHLCdEptOheU7UbDJBcG2SRY3AvFT024V9OfKTQ./y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224167U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:14.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:35.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f266f4a2dea8fc15d0c"
+  },
+  "name": "R.P.K.S.B. Ranasinghe",
+  "email": "ranasingher.22@uom.lk",
+  "password": "$2b$10$i09.UIAxDsBV3zM5s27s1eFq436pbnqSqh.WqdqR8QPM9Nytq4nDq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225088K",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:14.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:14.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f276f4a2dea8fc15d0f"
+  },
+  "name": "Lokuwella L.M.S.M.",
+  "email": "lmsml.22@uom.lk",
+  "password": "$2b$10$9.wkfMPjscVUuazCK5TrEem49glduaOBz08yI7Dy1zS7UPjtS4UGy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224120V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:15.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:07.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f276f4a2dea8fc15d12"
+  },
+  "name": "Nirman W.M.R.",
+  "email": "nirmanwmr.22@uom.lk",
+  "password": "$2b$10$RRrtoR9BSsTVCYKZ7Hzrreq1oTk1JDKxHRUfwGxPxATv7IeHjevC.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224242V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:15.420Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:23.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f276f4a2dea8fc15d15"
+  },
+  "name": "J.R.H. Chamikara",
+  "email": "chamikarajrh.22@uom.lk",
+  "password": "$2b$10$1iFGuWMiM5BIY2vUo/hIb.xNJzffi/H3ZEwV2r2PCeJTz6FIn1POq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225019D",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:15.677Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:15.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f276f4a2dea8fc15d18"
+  },
+  "name": "S. Logasini",
+  "email": "logasinis.22@uom.lk",
+  "password": "$2b$10$EyVM8CNcEsmgD5rIiccZle7Uo6Tc3LGTlRpJkC9qiibXMwwzq3oCi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224117T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:15.931Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:44.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f286f4a2dea8fc15d1b"
+  },
+  "name": "B.M.M. Amri",
+  "email": "amribmm.22@uom.lk",
+  "password": "$2b$10$aY6XZeLHiW4HxVvI1xrwx.uRmaF1/.exDJzhAoQZsIvGoTJ.v0vle",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225007N",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:16.230Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:16.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f286f4a2dea8fc15d1e"
+  },
+  "name": "Thisara Jayasooriya",
+  "email": "jayasooriyat.22@uom.lk",
+  "password": "$2b$10$9ktWj/s2JNTDmlWz6XpaFOjiiHLqKHSP05roORnz1Bwfk9h1DCNXq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225044A",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:16.491Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:16.491Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f286f4a2dea8fc15d21"
+  },
+  "name": "Senevirathna K.M.D.C",
+  "email": "kmdcs.22@uom.lk",
+  "password": "$2b$10$S23Wd8XN/XtRhtaEsleoK.mpQs/0XhHAGCw5ynMiq1nnvEgPdHWy.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224178E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:16.750Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:26.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f296f4a2dea8fc15d24"
+  },
+  "name": "Kalansooriya S.I",
+  "email": "kalansooriyasi.22@uom.lk",
+  "password": "$2b$10$U6Vk3OfsuE7nM.RDSKqyL.pSx78xAGt2JShWiv71AxQgEl17..ue.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224101N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:17.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:56.834Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f296f4a2dea8fc15d27"
+  },
+  "name": "Prabuddhi B. G. M.",
+  "email": "prabuddhibgm.22@uom.lk",
+  "password": "$2b$10$5QKNPusifZyGXzJsBa0eyeOuEXaiJw6/AaU.yinEUFBxirsB381qe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224151P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:17.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:24.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f296f4a2dea8fc15d2a"
+  },
+  "name": "DeMel W.G.N.D",
+  "email": "wgndd.22@uom.lk",
+  "password": "$2b$10$VROaBtX1Pb/3.QiPLnk62O0iNOL0ze1NajHIvoyiyfg7ISHCTJz8u",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224239T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:17.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:21.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f296f4a2dea8fc15d2d"
+  },
+  "name": "Suvini Mayadunna",
+  "email": "mayadunnas.22@uom.lk",
+  "password": "$2b$10$Bakd.GqvEb8CwTXH65PXmOAA.8v.srU8S/qOaK/tCjPD0ET6bp6MK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225070A",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:17.779Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:17.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2a6f4a2dea8fc15d30"
+  },
+  "name": "W.A.T.E.Wadanambi",
+  "email": "watewadanambi.22@uom.lk",
+  "password": "$2b$10$HYKP9G3RlFB5oXy4fNQ9UuSVrvNHU1EiyQAjonQgO2xHtHhJt.2z2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224207U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:18.079Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:28.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2a6f4a2dea8fc15d33"
+  },
+  "name": "Ayeshika K.P.N",
+  "email": "ayeshikakpn.22@uom.lk",
+  "password": "$2b$10$TCO3tDVXMLCbHc9fTtQsNuauoeJDEZCP/tTMEdl1dEseHAszIarOi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225011V",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:18.384Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:18.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2a6f4a2dea8fc15d36"
+  },
+  "name": "Perera W.T.S",
+  "email": "pererawts.22@uom.lk",
+  "password": "$2b$10$Kpj4DjZyqtPE2tYkGKv.0OdFBLdnPZewhoG/g1OZ.ywd2l44oHoTq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224150L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:18.643Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:52.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2a6f4a2dea8fc15d39"
+  },
+  "name": "Nimsara G.C.U",
+  "email": "nimsaragcu.22@uom.lk",
+  "password": "$2b$10$HCpTSfiMGLqMdm5xqtYt3.8aJIHvu7tXVY8zKhDHtBrC4NP89XuKG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224136B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:18.897Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:06.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2b6f4a2dea8fc15d3c"
+  },
+  "name": "H.P.K.N.Geethma",
+  "email": "hpkngeethma.22@uom.lk",
+  "password": "$2b$10$Vtonma2XvCru.EuIL6iIwemz2B46cJI2mtBbX6QteedGkjebxNQNm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225032K",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:19.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:14.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2b6f4a2dea8fc15d3f"
+  },
+  "name": "Gajasinghe G.N.P",
+  "email": "gajasinghegnp.22@uom.lk",
+  "password": "$2b$10$VVotnVum3500cLh2acWN4eoiSnubZOkRqIIx0xEq0ckvoqayFoJNa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225030D",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:19.410Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:19.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2b6f4a2dea8fc15d42"
+  },
+  "name": "K.M.S.N. Sandaruwan",
+  "email": "sandaruwank.22@uom.lk",
+  "password": "$2b$10$eviOjV3uE8vwl6ADI5u34OIL1Xzl/385sbQKP8ipa8og4Yr15EB/O",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224241R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:19.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:50.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2b6f4a2dea8fc15d45"
+  },
+  "name": "Ranasinghe L.R.",
+  "email": "ranasinghelr.22@uom.lk",
+  "password": "$2b$10$WbxJpiGsly41t.83Skn5sePtTV/dc.V8ukhGr.nLbgzK5df.jVkRm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224160R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:19.920Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:24.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2c6f4a2dea8fc15d48"
+  },
+  "name": "H.M.G.G. Herath",
+  "email": "herathh.22@uom.lk",
+  "password": "$2b$10$EDNv7l14AHXXV/1eVG52Pu2xGxsDLhTRRXKq7neS6DTcNbNBG27aW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225035X",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:20.174Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:20.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2c6f4a2dea8fc15d4b"
+  },
+  "name": "Priyankara K.N.",
+  "email": "priyankarakn.22@uom.lk",
+  "password": "$2b$10$Jnm3W0iqrsCJSIqKD6vKVet7Iu/l7904.GVNAeuVeqn2CCCQuAKtG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224154D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:20.434Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:52.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2c6f4a2dea8fc15d4e"
+  },
+  "name": "H.K.K.H.Kalhari",
+  "email": "hkkhkalhari.22@uom.lk",
+  "password": "$2b$10$7SVtnRYr8caxt2/Udxg.0OHxEtQZg3RP0MjMQNJul92EfUDmVERp6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225048N",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:20.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:20.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2d6f4a2dea8fc15d51"
+  },
+  "name": "Imasha G.G.P.",
+  "email": "imashaggp.22@uom.lk",
+  "password": "$2b$10$Zexc.5rJHyCjdbNkXv14eezJ9lmdu3tUp.poyCX1X4GWf9gNc35mC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225040H",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:21.092Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:21.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2d6f4a2dea8fc15d54"
+  },
+  "name": "Wimalasekera K.D.I.S.D.S.",
+  "email": "kdisdsw.22@uom.lk",
+  "password": "$2b$10$9hk7HY7ztTz4gEKfaet0i.p0cWik2HLBfjm6bfrIRiOYl5hKrKr.u",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224219H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:21.351Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:41.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2d6f4a2dea8fc15d57"
+  },
+  "name": "Sajidha M.H.F",
+  "email": "sajidhamhf.22@uom.lk",
+  "password": "$2b$10$qNuaMRlPU5OtT2KtSbW0o..BVFTlasXeBK62VmU9/Xj2GxjMQnA4O",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225095E",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:21.605Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:21.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2d6f4a2dea8fc15d5a"
+  },
+  "name": "S. Tishanth",
+  "email": "tishanths.22@uom.lk",
+  "password": "$2b$10$rg80GHNTeOn1Urp8oP2okOr7K5BDGA7jIP6TGpPvCeoEyDNyjPINy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224199T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:21.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:43.799Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2e6f4a2dea8fc15d5d"
+  },
+  "name": "N. Nirojiha",
+  "email": "nirojihan.22@uom.lk",
+  "password": "$2b$10$rhdp004eHewBDO/l8/or..jVDlOr//J14Z3RvXs3e9.n9zLtVHpqq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224130C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:22.117Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:45.040Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2e6f4a2dea8fc15d60"
+  },
+  "name": "M.H.F. Samha",
+  "email": "samhamhf.22@uom.lk",
+  "password": "$2b$10$MIHNbRcE9K4RS.xCaNDaQe0Z3UpWa.1L035cgTEqBZgOW.Rs5SEqq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224170X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:22.375Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:51.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2e6f4a2dea8fc15d63"
+  },
+  "name": "K.M.B.S.B.Kulathunga",
+  "email": "kmbsbkulathunga.22@uom.lk",
+  "password": "$2b$10$RtEOhXb0hVTzDfzQ6KodOuRRoNk0sfnrIhFCDes5pypsCkPAXVEKW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224113D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:22.629Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:04.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2e6f4a2dea8fc15d66"
+  },
+  "name": "Kodituwakku D.S.",
+  "email": "kodituwakkuds.22@uom.lk",
+  "password": "$2b$10$WGO10dA9WouNCP5nGbe1UelVJ5kDl3/HJAzjFfspBvTcedrFv.H.O",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225056L",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:22.893Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:22.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2f6f4a2dea8fc15d69"
+  },
+  "name": "Mihisara R.L.",
+  "email": "mihisararl.22@uom.lk",
+  "password": "$2b$10$R4f9acE7oSYfnrYMZP4sduoJMahhgo7Yu91MlO4S.VBBJWfdaU48S",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225072G",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:23.153Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:26.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2f6f4a2dea8fc15d6c"
+  },
+  "name": "Hiba Raheem",
+  "email": "raheemh.22@uom.lk",
+  "password": "$2b$10$DF.a3EcSZSajl2MSon9YWee49HsmSTh3bDwqRSrpoCbXXPmlJN5Li",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225039M",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:23.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:23.409Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2f6f4a2dea8fc15d6f"
+  },
+  "name": "M.B.F. Bushra",
+  "email": "bushrambf.22@uom.lk",
+  "password": "$2b$10$ptC60QkX46NBiPhM8XCnHuAFe.LmOgVFMupGiWpfD6LBO7uK7U.VW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224236G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:23.668Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:50.845Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f2f6f4a2dea8fc15d72"
+  },
+  "name": "T.R.F Hafza",
+  "email": "hafzatrf.22@uom.lk",
+  "password": "$2b$10$A5sgRkA5KmBJ/RNt4LFXdO8eWjdwGV07dvAqxyrPkcf1h8/jmuyZ6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224235D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:23.924Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:51.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f306f4a2dea8fc15d75"
+  },
+  "name": "H.I.H. Silva",
+  "email": "silvahih.22@uom.lk",
+  "password": "$2b$10$4og3tDEtfQ02urNcv7Z/7.pgItuciC1Hzcsvl9JbV.Z2nGFzTihmW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224183N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:24.181Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:16.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f306f4a2dea8fc15d78"
+  },
+  "name": "Mushtaq F.H.",
+  "email": "mushtaqfh.22@uom.lk",
+  "password": "$2b$10$iXzQwMHTrHRSbsHaHcNTZu3vOgXsn.3TuODTsh5CvpUSE89N3rmdu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225074N",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:24.437Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:39.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f306f4a2dea8fc15d7b"
+  },
+  "name": "Chandrasekara C B H A",
+  "email": "chandrasekaracbha.22@uom.lk",
+  "password": "$2b$10$3l35MDLya/j/RU6WS81NHuqjzTa2KNfXTuiIgwBwIhHndvyty4Qlm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225020X",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:24.707Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:16.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f306f4a2dea8fc15d7e"
+  },
+  "name": "Raveendran A",
+  "email": "raveendrana.22@uom.lk",
+  "password": "$2b$10$L61qrSfzykQOLlYODkHXTObOOYzNJ7NoPHecXqQuZ.mkOWDjcHO0O",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224164H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:24.967Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:16.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f316f4a2dea8fc15d81"
+  },
+  "name": "Latheeshan.T",
+  "email": "latheeshant.22@uom.lk",
+  "password": "$2b$10$5XSgUdWobH9J62wWS7mkQekstMDZ7DDeXFN5NNL3Tt/egWXLZrqTq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225060T",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:25.228Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:25.228Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f316f4a2dea8fc15d84"
+  },
+  "name": "S A A P A Athukorala",
+  "email": "athukoralasaapa.22@uom.lk",
+  "password": "$2b$10$KJJMVyJn8rqzMoTc17dgJOnRyWK2QNM4ILGwW2alV0ksWCjDfzLru",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225010R",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:25.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:25.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f316f4a2dea8fc15d87"
+  },
+  "name": "H.N.D.B.Sumanarathane",
+  "email": "hndbsumanarathane.22@uom.lk",
+  "password": "$2b$10$cz8J7j2VuM06SvWC3aZzBOKP0gAWe0ijglYZsigpLfXLTZkoO6xl6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224188J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:25.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:03.587Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f326f4a2dea8fc15d8a"
+  },
+  "name": "Govindu Bandara",
+  "email": "bandarag.22@uom.lk",
+  "password": "$2b$10$Eohuh.jkGS0f91K5JEVg9eDtAW31X9JMxT/aLf5Xg6AIoXbEQybzC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225016P",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:26.041Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:26.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f326f4a2dea8fc15d8d"
+  },
+  "name": "Nishmy",
+  "email": "nishmy.22@uom.lk",
+  "password": "$2b$10$XkKLHiQk4davTzLD0gUDp.IukmYcI4ulwGYlB2mVblv1rkAWgQowK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225078F",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:26.312Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:26.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f326f4a2dea8fc15d90"
+  },
+  "name": "Sandanima H.A.E.",
+  "email": "sandanimahae.22@uom.lk",
+  "password": "$2b$10$PWgcBFPOW.B7huk8O8ZG/.x/IRKMJW27Qaz7YBe5SaAla5GO.sQCy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225099U",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:26.579Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:26.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f326f4a2dea8fc15d93"
+  },
+  "name": "W.D.N.A.Fernando",
+  "email": "wdnafernando.22@uom.lk",
+  "password": "$2b$10$QVBLdx6IXstzZE618U.UzuUuVeLwt/ukNMjoPKKRyZqJHurR62edO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225028E",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:26.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:26.847Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f336f4a2dea8fc15d96"
+  },
+  "name": "H.M.D.S. Bandara",
+  "email": "bandarah.22@uom.lk",
+  "password": "$2b$10$IlfCftPHz25PvRPra8i3ju/d7vzQnXP1miALEB5QiHnc3WiHV.xh.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225014H",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:27.232Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:27.232Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f336f4a2dea8fc15d99"
+  },
+  "name": "Karunasinghe I.A.J.L.S.",
+  "email": "iajlsk.22@uom.lk",
+  "password": "$2b$10$P/GzqqcajHWrFS/8qyyIYOdWeYjN/wsilKSMwNrtMiuqzbMVAmpyS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224104C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:27.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:25.847Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f346f4a2dea8fc15d9c"
+  },
+  "name": "Vithana B.V.C.L.",
+  "email": "bvclv.22@uom.lk",
+  "password": "$2b$10$3v29N56RyLitGhImpsYNW.1zUzlvbp6h4bXurzC1HTsOdBma9Vdxa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224204H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:28.331Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:31.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f346f4a2dea8fc15d9f"
+  },
+  "name": "T.M.H.M.Yatigammana",
+  "email": "tmhmyatigammana.22@uom.lk",
+  "password": "$2b$10$8sfQaSBr70.gkHwldMhZw.OquWqLOWOIAwmVVA0IWYhNsRWNnA.qW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224222K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:28.607Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:23.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f346f4a2dea8fc15da2"
+  },
+  "name": "B.P.S.C.Balasooriya",
+  "email": "bpscbalasooriya.22@uom.lk",
+  "password": "$2b$10$9snNdsuRTnSYVSlF4Iy0lOIcxN19m5oyziCqBq7KiwKWErvkafn76",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224245H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:28.891Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:22.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f356f4a2dea8fc15da5"
+  },
+  "name": "J.S.Viduranga",
+  "email": "jsviduranga.22@uom.lk",
+  "password": "$2b$10$U7mv2kRKxA4x3UEQrNMTBuqzGxJCU99Yyd5Ovyad0szUYLcqt6BpS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224203E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:29.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:04.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f356f4a2dea8fc15da8"
+  },
+  "name": "Rathnayaka R.M.G.S.",
+  "email": "rmgsr.22@uom.lk",
+  "password": "$2b$10$gGVQmLYL5TZE6OzyEGwLPeBxCl1hr4Osp2WnclbwmF2NSZO9OjYIW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224162B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:29.408Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:59.825Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f356f4a2dea8fc15dab"
+  },
+  "name": "R  G N S Herath",
+  "email": "herathrgns.22@uom.lk",
+  "password": "$2b$10$AXX2NYJYwSPq1zOl7EWg0e.l./nTTwJes4i015CCd5JSCbeVICgqO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225037F",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:29.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:29.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f356f4a2dea8fc15dae"
+  },
+  "name": "Isumi Aranika",
+  "email": "aranikai.22@uom.lk",
+  "password": "$2b$10$9vSFvpkIaQBRK6Uh11LYm.zY9WHsfXIaStW7LWjPPsm6n2FKdBd2W",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225002U",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:29.922Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:29.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f366f4a2dea8fc15db1"
+  },
+  "name": "R.M.N.D. Rathnayaka",
+  "email": "rathnayakar.22@uom.lk",
+  "password": "$2b$10$/o329to3VLcXBsJDspJxFOe3B4SZxQY.6SxGvQ4hYuAKwyF4kfPOi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225091M",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:30.240Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:30.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f366f4a2dea8fc15db4"
+  },
+  "name": "Pabodhani R.W.V.N.D.",
+  "email": "rwvndp.22@uom.lk",
+  "password": "$2b$10$ZEprF1mdgLynoZ/aGfzKRud91QHFcBG1LM001CGOgdAw54neos/5S",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224140G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:30.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:42.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f366f4a2dea8fc15db7"
+  },
+  "name": "Liyanagunwardhana L.U.",
+  "email": "liyanagunwardhanalu.22@uom.lk",
+  "password": "$2b$10$a2iWFY5O/UlgUbx06W2kluSOz14Vl6AlXa82S81fG4d4eMEUhxHfm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225065M",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:30.755Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:30.755Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f376f4a2dea8fc15dba"
+  },
+  "name": "P.G.S.Nirodya",
+  "email": "pgsnirodya.22@uom.lk",
+  "password": "$2b$10$m1aDJ6C26iMBdwHr/U5ghubLmisIS0lQJiYAOgPwVUPVeGorBTmJ2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225077C",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:31.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:48.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f376f4a2dea8fc15dbd"
+  },
+  "name": "Supasena S.P.C.D",
+  "email": "spcds.22@uom.lk",
+  "password": "$2b$10$sU.WtubHPZCTw.jhqEsw4uCnZhCfjsKrpTUo7fNxSWcm6vE1MarEe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224189M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:31.264Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:23.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f376f4a2dea8fc15dc0"
+  },
+  "name": "Dewasurendra W.D.S.H",
+  "email": "wdshd.22@uom.lk",
+  "password": "$2b$10$dywMBcNwEGrl0ol3sBxTRub/.pLJgszTBDZtRf.b0MUX1f69l9BqG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224227F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:31.526Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:59.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f376f4a2dea8fc15dc3"
+  },
+  "name": "Silva S.H.P",
+  "email": "silvashp.22@uom.lk",
+  "password": "$2b$10$./FHbKd2RiZ8sIiogpvD9.Lc4qtQiP84WtOf6VY/HtT3Q4BuqdSHC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224184T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:31.792Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:00.541Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f386f4a2dea8fc15dc6"
+  },
+  "name": "Olaboduwa D.P",
+  "email": "olaboduwadp.22@uom.lk",
+  "password": "$2b$10$tc3fVnq2q/REXlRRNNlmJOcwMWoK7nL6M0PGKC3VjjNfqeA/geu.C",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224139L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:32.057Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:09.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f386f4a2dea8fc15dc9"
+  },
+  "name": "Thewmika N.B.T",
+  "email": "thewmikanbt.22@uom.lk",
+  "password": "$2b$10$.Swk.0mnDPFJZS6rpCuXruyV.DIWAalCeWXINvIAbNy/cH6Ln9r4u",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224194A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:32.324Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:00.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f386f4a2dea8fc15dcc"
+  },
+  "name": "Rasmiya A.",
+  "email": "rasmiyaa.22@uom.lk",
+  "password": "$2b$10$cAdKQYrA44zSy2nuKRtkUeyH/PufD99JD4kFYpEl.C2Qo20o3K2A.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224161V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:32.589Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:59.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f386f4a2dea8fc15dcf"
+  },
+  "name": "Janith K.A.R.",
+  "email": "janithkar.22@uom.lk",
+  "password": "$2b$10$xBV/j3IEjKLEXuBNLUTCweaheU7fUqlww2lr/d7iZOtEqpMlww2pa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225041L",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:32.882Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:32.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f396f4a2dea8fc15dd2"
+  },
+  "name": "K.G.Madduma Bandara",
+  "email": "bandarak.22@uom.lk",
+  "password": "$2b$10$LuaFgwygDqFVYtBlGCocaOa4rq4RxyO9PM.Crq9hZ5d5C.rIm1Xvy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225066R",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:33.149Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:33.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f396f4a2dea8fc15dd5"
+  },
+  "name": "S.M.C.S.Senanayaka",
+  "email": "smcssenanayaka.22@uom.lk",
+  "password": "$2b$10$mDzxZCszPqwb.rQXfSpkkuxI6R0l3yPd59zX7rK2ZzG0HxQ29DQ.K",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224176V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:33.433Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:57.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f396f4a2dea8fc15dd8"
+  },
+  "name": "J.K.A.V. Kumari",
+  "email": "kumarij.22@uom.lk",
+  "password": "$2b$10$PKf6lL3Zg5cHXqs.s641ruCg9LbOWVk/rDGu0GsQu9gFrtAYDXW6S",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224115K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:33.697Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:12.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f396f4a2dea8fc15ddb"
+  },
+  "name": "Tharaka H.K.S.",
+  "email": "tharakahks.22@uom.lk",
+  "password": "$2b$10$s6xYyMAP0/iZ4VPJuseTcOHcDyhNBvpQ73mXmbj2FkOim1.1pUmi2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224192P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:33.963Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:59.111Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3a6f4a2dea8fc15dde"
+  },
+  "name": "M.T.N.S Perera",
+  "email": "pereram.22@uom.lk",
+  "password": "$2b$10$OfTCy9cZHAwWL/9Di/V4V.GX1uELuUORVOTmzCrHC/oyRhQE/rctO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224148M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:34.245Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:02.081Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3a6f4a2dea8fc15de1"
+  },
+  "name": "S.M.Thilshath",
+  "email": "smthilshath.22@uom.lk",
+  "password": "$2b$10$FEYwioYKZGE1RVQd5hI3l.ycLCyDbN6VFbgNynyhQzFuvdro7jvBS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224195D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:34.510Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:28.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3a6f4a2dea8fc15de4"
+  },
+  "name": "Ranasinga R.M.M.N",
+  "email": "rmmnr.22@uom.lk",
+  "password": "$2b$10$JbJu7oOnrISrsoNeDlWnBeSRDNSGIt3zaKcOSBpsKdh6PA4RmXMeS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224250T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:34.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:20.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3b6f4a2dea8fc15de7"
+  },
+  "name": "Samarawickrama P. P. N.",
+  "email": "samarawickramappn.22@uom.lk",
+  "password": "$2b$10$Wm7ss6mCOC3pOuibn2ky9eiDo7ljMWGXYhMZeChL07WRT31Dam1v6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224169D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:35.079Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:58.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3b6f4a2dea8fc15dea"
+  },
+  "name": "M.J.H Pinto",
+  "email": "pintomjh.22@uom.lk",
+  "password": "$2b$10$tHYX4ynYUZu5f2bSIe0KxurQH6HSWts7QGMVGMUIPz4jMxBdJXilq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224224T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:35.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:01.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3b6f4a2dea8fc15ded"
+  },
+  "name": "Kodithuwakku K.A.S.S",
+  "email": "kassk.22@uom.lk",
+  "password": "$2b$10$Onl3dmZyV5A5/krvX71BueRAWG48Pyd6nl.o9PVSoEFQtZ8/NVDFq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224226C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:35.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:00.590Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3c6f4a2dea8fc15df0"
+  },
+  "name": "Rumesh Elpitiya",
+  "email": "elpitiyar.22@uom.lk",
+  "password": "$2b$10$q2iAh8x/xy4i1KYAbLiVbePC9RBX26F2jKJtgzAzb3ERRUlZUFbeG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225026V",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:36.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:36.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3c6f4a2dea8fc15df3"
+  },
+  "name": "M.D.K.D Malidu",
+  "email": "malidum.22@uom.lk",
+  "password": "$2b$10$3H4V0m9O6/ZxhPQ3A1OsM.dBPVPsVMVtuCWaFWnkPKGm1MFPzHz/e",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224122E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:36.425Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:01.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3c6f4a2dea8fc15df6"
+  },
+  "name": "R. Thisok",
+  "email": "thisokr.22@uom.lk",
+  "password": "$2b$10$oOHCG0Lcrv1IRCmD.xwYUuJ8ctNaJusrXt0nwGGOdoRSGdvKNHuSK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224196G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:36.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:45.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3d6f4a2dea8fc15df9"
+  },
+  "name": "W.H.P Anuththara",
+  "email": "anuththarawhp.22@uom.lk",
+  "password": "$2b$10$oQE5YTGmUoYjxAvke86IFu6UJlYsUdf0zTgLHznLa7NFVbelDgxam",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225008T",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:37.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:37.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3d6f4a2dea8fc15dfc"
+  },
+  "name": "Wickramaarachchi K.P",
+  "email": "wickramaarachchikp.22@uom.lk",
+  "password": "$2b$10$c8xsyF8i8/Pqu3eF3Ba4iuFdZU7V8ctD81ryvDjcZQbaN2kHUA/pe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224214M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:37.302Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:53.505Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3d6f4a2dea8fc15dff"
+  },
+  "name": "R.A.D. Dilshan",
+  "email": "dilshanrad.22@uom.lk",
+  "password": "$2b$10$f6xwAvizdxgUbxS4IMnA8uoOSX3BYvY21wZmFIlkGZhgafS2S4Yuy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224231L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:37.566Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:13.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3d6f4a2dea8fc15e02"
+  },
+  "name": "Karunakaran K.",
+  "email": "karunakarank.22@uom.lk",
+  "password": "$2b$10$SdKSz37VsK2sYPfeI4nmCOqE1o4VYS8UqP3I1kkl0inFdtB31d55K",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224102T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:37.830Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:43.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3e6f4a2dea8fc15e05"
+  },
+  "name": "Karalliyadda E.W.M.S.S.",
+  "email": "ewmssk.22@uom.lk",
+  "password": "$2b$10$BkG4xRlezX34tOOkxk.y6eTZAXJKJeX9tfEWGdPFXEfz1wePWIlNG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225050M",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:38.093Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:38.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3e6f4a2dea8fc15e08"
+  },
+  "name": "I.M. Lokupathirage",
+  "email": "lokupathirageim.22@uom.lk",
+  "password": "$2b$10$2wexj5.PvE1693x8zxg7MOpc.1.pXiGEOSwMrA0XmioMyjyqftNm2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224119C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:38.358Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:29.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3e6f4a2dea8fc15e0b"
+  },
+  "name": "Ruwanima K.P.",
+  "email": "ruwanimakp.22@uom.lk",
+  "password": "$2b$10$Phag2J/C.6nAH1x3MTDzP.WCccHkjuaQfF2M/OsBHoAmR7/rmWvqm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224166P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:38.627Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:54.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3e6f4a2dea8fc15e0e"
+  },
+  "name": "M.P.S.Mewanmith",
+  "email": "mpsmewanmith.22@uom.lk",
+  "password": "$2b$10$lM4MI0K8VRPewlHWmbRDj.T94NSv7A4qYsORXP.Q1sppLTDYI4t3W",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225071D",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:38.905Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:38.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3f6f4a2dea8fc15e11"
+  },
+  "name": "Karunarathna N.P.D.C",
+  "email": "npdck.22@uom.lk",
+  "password": "$2b$10$mGtY1s/9seUlRpZOYeHOGuhJq3wKQc1Lz3WjiFesMg92.GJnLucJK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225052V",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:39.171Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:39.171Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3f6f4a2dea8fc15e14"
+  },
+  "name": "Jayawardhana.W.A.J.M",
+  "email": "jayawardhanawajm.22@uom.lk",
+  "password": "$2b$10$172MuaeH7ifEvTbaIZbtkuNNHX/t7zLso/4RLNQMXZDgsghH0jdNy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224238N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:39.444Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:26.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3f6f4a2dea8fc15e17"
+  },
+  "name": "Darsha",
+  "email": "darsha.22@uom.lk",
+  "password": "$2b$10$CA2SAsSFhARkh4InYwrW9e77vNCtQllL7cf1CQVWnBrvHoXz/XE8S",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225087G",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:39.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:39.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f3f6f4a2dea8fc15e1a"
+  },
+  "name": "Anuda Kaushika",
+  "email": "kaushikaa.22@uom.lk",
+  "password": "$2b$10$eaPkXyCQuoH/CGgalUhj1OZKQMqVWqqinzWAUB3oetk6ZTRJvmNK2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225024M",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:39.973Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:39.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f406f4a2dea8fc15e1d"
+  },
+  "name": "TMA.Muski",
+  "email": "tmamuski.22@uom.lk",
+  "password": "$2b$10$V408Y77icvElqBhyXxxcEOBV7O47b5RMxs4jl7PEIdNWpHQlH/Vg6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225075T",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:40.238Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:40.238Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f406f4a2dea8fc15e20"
+  },
+  "name": "Ranawaka R.A.M.R",
+  "email": "ramrr.22@uom.lk",
+  "password": "$2b$10$vRoYKnoJcA.disWabu21h.xIYdtoexaOcCZQkABRmz4ns4NFKLr1q",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225089N",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:40.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:40.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f406f4a2dea8fc15e23"
+  },
+  "name": "N.A.N Madhusanka",
+  "email": "madhusankanan.22@uom.lk",
+  "password": "$2b$10$WbgrQGJbrvQVMWRfW8dHGOCGWGf3eXRE6xuADR.LIiGHxnAjnJFwy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224121B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:40.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:14.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f416f4a2dea8fc15e26"
+  },
+  "name": "Kumara Y.M.I.U.S",
+  "email": "ymiusk.22@uom.lk",
+  "password": "$2b$10$8HU8mp8KmZuExoHsXLsJteXCF..S/ovLy9hurJcVXqLE6JtnfkECe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225059A",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:41.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:55.487Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f416f4a2dea8fc15e29"
+  },
+  "name": "Rajakaruna I B",
+  "email": "rajakarunaib.22@uom.lk",
+  "password": "$2b$10$9s/D1NHjYMDBP//9M2c/Z.4Ee6mAJGECsJqravoKV.fQYzVo3OPvW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225084U",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:41.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:41.295Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f416f4a2dea8fc15e2c"
+  },
+  "name": "Pradeepa",
+  "email": "pradeepa.22@uom.lk",
+  "password": "$2b$10$3dp/YNTCPpgMcpXmnfNrguGfiNi7FUySNcVlRCqoM0TjbjkewCzHO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225046G",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:41.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:41.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f426f4a2dea8fc15e2f"
+  },
+  "name": "Ihansa Sansiluni",
+  "email": "sansilunii.22@uom.lk",
+  "password": "$2b$10$NZqcXjWrkOjKfUaWqV9ZDuUu3/YUSxohCNcxGtg5G2JFeLVx9FW9y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225061X",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:42.257Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:42.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f426f4a2dea8fc15e32"
+  },
+  "name": "Nalaka Dinesh",
+  "email": "dineshn.22@uom.lk",
+  "password": "$2b$10$hZsPBa5YndHfrorLPL1Pt.uEQ8f4SrUpA8EMVnKAN8kx1JY2RBlQO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225097L",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:42.526Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:42.526Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f426f4a2dea8fc15e35"
+  },
+  "name": "Liyanage D.L.M.J",
+  "email": "dlmjl.22@uom.lk",
+  "password": "$2b$10$wFfFnVCxYdJq/pnb8TMgn.qiXLmErjBsVPR3I5EkxuF2B2WC3FWJS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225064J",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:42.789Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:42.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f436f4a2dea8fc15e38"
+  },
+  "name": "Geeneth Punchihewa",
+  "email": "punchihewag.22@uom.lk",
+  "password": "$2b$10$kcrY/sXmUF.CNN9jHNQpHeNs14AsMD9D8sz0prrdF7C9TxOtMmAwq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225083P",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:43.049Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:43.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f436f4a2dea8fc15e3b"
+  },
+  "name": "Minsandi A.B",
+  "email": "minsandiab.22@uom.lk",
+  "password": "$2b$10$UNZYZPoJKGA5Qz928pO3guKOq6JmqQC.0SeGYrm6QvBQ3PHndTAVq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225073K",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:43.306Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:43.306Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f436f4a2dea8fc15e3e"
+  },
+  "name": "Kariyawasam K.G.K.R",
+  "email": "kgkrk.22@uom.lk",
+  "password": "$2b$10$fExV9FKchDtZ7JITLCJWyOF8JH5LgMyet8k50wGI32Xf.kmI840Ya",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224259E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:43.561Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:01.265Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f436f4a2dea8fc15e41"
+  },
+  "name": "Weerasinghe W.H.D.D.B",
+  "email": "whddbw.22@uom.lk",
+  "password": "$2b$10$xCXaGOQK/bpI4LbQc6bRLeGrAr6ZPClG.9Lc/fhdlHzZBa6Uf21Nq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224211C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:43.817Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:53.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f446f4a2dea8fc15e44"
+  },
+  "name": "M.K.Y.C DeSilva",
+  "email": "desilvam.22@uom.lk",
+  "password": "$2b$10$FdgHjm.san8OGxV8UTBanOOChtDaMXWek/vuOmZacGvgGSu2WfsyW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225022F",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:44.073Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:37.243Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f446f4a2dea8fc15e47"
+  },
+  "name": "P.D.A.H.K Amarathunge",
+  "email": "amarathungep.22@uom.lk",
+  "password": "$2b$10$mZh.Qe/HAbEdYRtJzOVRKORSO1sJDzyfYUSxB94x9doRbPVuNqxmO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225006K",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:44.337Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:37.570Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f446f4a2dea8fc15e4a"
+  },
+  "name": "Kulasekara Y.B.M",
+  "email": "kulasekaraybm.22@uom.lk",
+  "password": "$2b$10$7bkXEWGTh/nf9c1sKDxhn.O/iXCZ5moQt3UcSygFDCWbBaRHKOexe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224111U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:44.604Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:18.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f446f4a2dea8fc15e4d"
+  },
+  "name": "Shehal A.C",
+  "email": "shehalac.22@uom.lk",
+  "password": "$2b$10$aTy6Pa/ftqvjF81kQ2oSXOVksu.oZq3a1Mhhi86aMhct7v61eMETK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224181G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:44.876Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:13.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f456f4a2dea8fc15e50"
+  },
+  "name": "Padmappiriyan S",
+  "email": "padmappiriyans.22@uom.lk",
+  "password": "$2b$10$woTwCmNoCsVg8J2CLDbnXeO8p53vHw2YyU0fXKJncu5iURfUI1JZ2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224141K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:45.142Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:48.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f456f4a2dea8fc15e53"
+  },
+  "name": "Methmitha S.M.P.M",
+  "email": "smpmm.22@uom.lk",
+  "password": "$2b$10$906jEJTD9o.ifCs5BW2bTu.RQGD4rB.bWoYvuI547xmdTTftRgw3i",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224126U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:45.406Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:55.140Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f456f4a2dea8fc15e56"
+  },
+  "name": "Amalka HKS",
+  "email": "amalkahks.22@uom.lk",
+  "password": "$2b$10$ss97ikFzl3HmPNEesszKLuephnRZm90yEnjP7chMqK/yq/G8wfBbK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225004D",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:45.670Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:45.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f456f4a2dea8fc15e59"
+  },
+  "name": "D. Hettiarachchi",
+  "email": "hettiarachchid.22@uom.lk",
+  "password": "$2b$10$as/LGnZM1vX0t14NHOz24e69FnPRT1CyKgNKjujLTujgHo/RU2kJu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225038J",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:45.942Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:45.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f466f4a2dea8fc15e5c"
+  },
+  "name": "Kahawalage D.I.",
+  "email": "kahawalagedi.22@uom.lk",
+  "password": "$2b$10$18wjLTZNtMJxYFvoyGNwx.ektpQFntEprt8q9fsP6qpuXwV/.w6ri",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225047K",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:46.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:19.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f466f4a2dea8fc15e5f"
+  },
+  "name": "S.P.T.G. Senadeera",
+  "email": "senadeeras.22@uom.lk",
+  "password": "$2b$10$iAsq69RADyjON2Epydprr.m0rKH4EPr.CsX7EsLk0l3N.A5/1p61y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224175R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:46.469Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:49.121Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f466f4a2dea8fc15e62"
+  },
+  "name": "Thushanth M.",
+  "email": "thushanthm.22@uom.lk",
+  "password": "$2b$10$U21.YgPlrnS5ORzfAMTZg.NJOgqsnkermrEiJeWhxvQcKDv4Sxdxa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224197K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:46.735Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:03.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f476f4a2dea8fc15e65"
+  },
+  "name": "rathnayaka s j",
+  "email": "rathnayakasj.22@uom.lk",
+  "password": "$2b$10$NIS55OIQC.iRgvF./o8EZ.6dhWtbHYNdlQLEzZyjQsuLTMbbl5Z9W",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225092R",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:47.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:47.007Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f476f4a2dea8fc15e68"
+  },
+  "name": "R.D.S.A Rajapaksha",
+  "email": "rajapakshar.22@uom.lk",
+  "password": "$2b$10$ptWuQqIodQ7m2.ublwSv2OouqQy0DS2b9WPwwucHKaqxHs6IQ5oAC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224155G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:47.273Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:12.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f476f4a2dea8fc15e6b"
+  },
+  "name": "S.K.T.R Mendis",
+  "email": "mendiss.22@uom.lk",
+  "password": "$2b$10$D7TUvc8EnzlBV1ilnDFnmubC6CypscypSXtdXJnvPirWlDd7XzNy.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224125P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:47.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:11.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f476f4a2dea8fc15e6e"
+  },
+  "name": "Akalishan R",
+  "email": "akalishanr.22@uom.lk",
+  "password": "$2b$10$diiv69TCCNHk8pPOZ4PtZOv4ij/yZ3sVGYw9bqQvtuFy4rQZsFH.2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224255M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:47.793Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:48.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f486f4a2dea8fc15e71"
+  },
+  "name": "M.W.G.T Jayathura",
+  "email": "jayathuram.22@uom.lk",
+  "password": "$2b$10$wsJd6t0INTTQvmGtPTiwpe2iMB5dx3/Hi2.i3ZBfVRSQ6RFeG0uWG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225045D",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:48.058Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:48.058Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f486f4a2dea8fc15e76"
+  },
+  "name": "Vithushan K.",
+  "email": "vithushank.22@uom.lk",
+  "password": "$2b$10$apumTT5bRYzzkjBOdir4/eBjOJjyHL3SR1mxZ.EN/Nsad0jTrSTzG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224206P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:48.579Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:21.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f496f4a2dea8fc15e7b"
+  },
+  "name": "Abeshika.J",
+  "email": "abeshikaj.22@uom.lk",
+  "password": "$2b$10$TxP3C2VL7Ks9ZWg0Ft/EBeP5yyiOabB/ICO.hAJYHb91cEukAc4iC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224247P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:49.109Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:13.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f496f4a2dea8fc15e7e"
+  },
+  "name": "Marasinghe M.P.S.B.",
+  "email": "mpsbm.22@uom.lk",
+  "password": "$2b$10$ZlzFZoNlCN0lNCZE1EjR5udifHyBhW3A.93te.RZOkkVzfVCWrWGO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225069E",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:49.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:49.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f496f4a2dea8fc15e81"
+  },
+  "name": "J.A.M. Kodikara",
+  "email": "kodikarajam.22@uom.lk",
+  "password": "$2b$10$QWGp51.CQlHU8JgmQIHKROZ8aA89SlZxIPbDi.Lv8cDsWHz4ZLmdy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224107M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:49.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:05.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f496f4a2dea8fc15e84"
+  },
+  "name": "D.M.O.I. Bandara",
+  "email": "bandarad.21@uom.lk",
+  "password": "$2b$10$dteaMKJ0yRwXeeApzZhoXOIoR98rIsI7NKNMwEl5RuYlNvyXB8.wS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "214249N",
+  "degree": "IT",
+  "batch": 21,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:49.910Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:35.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4a6f4a2dea8fc15e87"
+  },
+  "name": "Gimhani U.G.I.",
+  "email": "gimhaniugi.22@uom.lk",
+  "password": "$2b$10$P4ZZvR4yWprW8B/a3GTOxe8Ba3yNCZ2zLrlDhu1x41eHNf83RAXcO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225033N",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:50.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:50.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4a6f4a2dea8fc15e8a"
+  },
+  "name": "Herath D M R D",
+  "email": "herathdmrd.22@uom.lk",
+  "password": "$2b$10$jzqzRDLUfmPC/IntXwNyouWijd5HPFxowLO6iBli6V2Y2iQ4PU.3a",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224258B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:50.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:50.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4a6f4a2dea8fc15e8d"
+  },
+  "name": "D.D.C. Sasmitha",
+  "email": "sasmithaddc.22@uom.lk",
+  "password": "$2b$10$oNcN1o/FQlkL7uJIFlGz6OPdmQ9xCMwP5VkwdQ.WQHMfdBlYBb5XK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224230H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:50.756Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:14.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4b6f4a2dea8fc15e90"
+  },
+  "name": "Lisorthman",
+  "email": "lisorthman.22@uom.lk",
+  "password": "$2b$10$2Dl3sZDwUjmhwY37ZPe0ZO3Ww0buno03v2a9k9oN57./ButTxpIwW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225063F",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:51.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:51.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4b6f4a2dea8fc15e93"
+  },
+  "name": "Balasuriya P.B.G.A.V.K.K.",
+  "email": "pbgavkkb.22@uom.lk",
+  "password": "$2b$10$WqTjyMqtHtBZpPy0Yj8BkOjzxHhC5/.YM2xhFP8oL.A2STRn.PveK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224244E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:51.334Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:09.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4b6f4a2dea8fc15e96"
+  },
+  "name": "Muditha Lakmali",
+  "email": "lakmalim.22@uom.lk",
+  "password": "$2b$10$66v3C/yzBBJ94/Qk4HFX9Om6.taE4t/Ts73rWx1HV4bZJdo1sqera",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225079J",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:51.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:51.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4b6f4a2dea8fc15e99"
+  },
+  "name": "S.S. Lokugalappaththi",
+  "email": "lokugalappaththiss.22@uom.lk",
+  "password": "$2b$10$Vxpf4tkUPTDcfixFs07qAOrmqn7aBBiyLrvK7omXfVLHdVfdn09fm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224118X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:15.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4c6f4a2dea8fc15e9c"
+  },
+  "name": "Palihawadana C.R.",
+  "email": "palihawadanacr.22@uom.lk",
+  "password": "$2b$10$sWMM.TIRQlXzxn1Pn16DteStmM3IDBqTQes/HcUsKq0CP8DxClPsa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224142N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:52.103Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:58.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4c6f4a2dea8fc15e9f"
+  },
+  "name": "Kuruppu S.N",
+  "email": "kuruppusn.22@uom.lk",
+  "password": "$2b$10$2y8M.CIwWe/KGJbhQn0KnevGhIsixbbOitZLC06WfHtiGxt/t1AO.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224228J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:52.373Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:19.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4c6f4a2dea8fc15ea2"
+  },
+  "name": "Perera M.S.R.",
+  "email": "pereramsr.22@uom.lk",
+  "password": "$2b$10$EoK9wQBpPKXztN8ug7NvIO4OmI0IllVljhp45u8m6eMImxvwUmhAm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224147J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:52.632Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:30.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4c6f4a2dea8fc15ea5"
+  },
+  "name": "Thuvaragan G",
+  "email": "thuvaragang.22@uom.lk",
+  "password": "$2b$10$p3p1hZAiGG.Lbxn.lejcf.NUc.aGpxDY6L8QuJxFIziQ2mgNAPRW.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224198N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:52.894Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:52.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4d6f4a2dea8fc15ea8"
+  },
+  "name": "Y.K.K.S Surendra",
+  "email": "surendray.22@uom.lk",
+  "password": "$2b$10$SXCfr29lrFAaIaUOoliYqOxIYOkqQeGUx0sErz4jX2QEKF6/q2EMe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224190H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:53.151Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:13.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4d6f4a2dea8fc15eab"
+  },
+  "name": "B.H.A.R.Kulasekera",
+  "email": "bharkulasekera.22@uom.lk",
+  "password": "$2b$10$9b1rNaLwnO0v.nEQd1mwsuJhAYyP9WT9DBQIdpKLHxKwBYx4Vpfhu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224112A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:53.408Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:56.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4d6f4a2dea8fc15eae"
+  },
+  "name": "Dananjaya Bandara",
+  "email": "bandarad.22@uom.lk",
+  "password": "$2b$10$GyDS12bBRwdNhDHHsm0xi.WrqqALNLvcH9UWTfqrcddPLSxXHLs32",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225018A",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:53.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:53.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4d6f4a2dea8fc15eb1"
+  },
+  "name": "Senarathna P.K.V.J.",
+  "email": "pkvjs.22@uom.lk",
+  "password": "$2b$10$eU2RQBjjlIgOqJRHlSq9C.QwCSskReDZOH5nsw48/SUFXWzZv9Ld2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224177B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:53.919Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:45.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4e6f4a2dea8fc15eb4"
+  },
+  "name": "Rishigoban.J",
+  "email": "rishigobanj.22@uom.lk",
+  "password": "$2b$10$p4c4mFp61YLjK3lkyhsV1er/evA1eag36g77WDde7BRksQE4AE1I2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224165L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:54.181Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:02.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4e6f4a2dea8fc15eb7"
+  },
+  "name": "Fernando H.O.R",
+  "email": "fernandohor.22@uom.lk",
+  "password": "$2b$10$akKQ1vRACr/Th6H5pLHlMeq9jBDsKdP8TRhT6pTNzFWyGcklaLI9O",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225027B",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:54.438Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:58.419Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4e6f4a2dea8fc15eba"
+  },
+  "name": "Piranavan S.",
+  "email": "piranavans.22@uom.lk",
+  "password": "$2b$10$Kjhw3nCHJs48epoXhvog6uLjqc/xr3CHJZCzhAy.nuVpnBr1NTJ3W",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224253F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:54.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:01.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4e6f4a2dea8fc15ebd"
+  },
+  "name": "Shavmiyan V.",
+  "email": "shavmiyanv.22@uom.lk",
+  "password": "$2b$10$LRv7lLyUi7b9MfHjcquDbe6k51zBSWKnkwOHFGTQxBBaI/b2o.NEW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224246L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:54.973Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:04.284Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4f6f4a2dea8fc15ec0"
+  },
+  "name": "Sajimithan P",
+  "email": "sajimithanp.22@uom.lk",
+  "password": "$2b$10$j0uV8tYOnHxw9dMicCjQ/.iWcy9zjo.Js6.1MVL1chMCSTdqwdYkm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225096H",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:55.255Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:55.255Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f4f6f4a2dea8fc15ec6"
+  },
+  "name": "Satharasingh D.G.M.",
+  "email": "satharasinghdgm.22@uom.lk",
+  "password": "$2b$10$FazMFSRp.xayuCLYfXuQA.8ASDr5cuNvY6JGEzjJZ.l6DUbdmfHYO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224172F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:55.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:30.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f506f4a2dea8fc15ec9"
+  },
+  "name": "C.B.R.N.D. Bandara",
+  "email": "bandarac.22@uom.lk",
+  "password": "$2b$10$Jp45P0uolSeb0d6Thzp9iemTzUuEk5AmWLzvYKZV4IAm/RnHuHnTe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225013E",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:56.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:56.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f506f4a2dea8fc15ecc"
+  },
+  "name": "Rajapashe R.A.R.S",
+  "email": "rarsr.22@uom.lk",
+  "password": "$2b$10$Cdpp5lVga1MvmLAF0EwD5ObgZG2xwqul3VuVQw6tjSYZojiBqr/nO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224223N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:56.283Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:08.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f506f4a2dea8fc15ecf"
+  },
+  "name": "Mendis B.I.P.D",
+  "email": "bipdm.22@uom.lk",
+  "password": "$2b$10$dMgPHS3TsBDMt7Aa00amU.419O/sM7ugiOO0Spk1J495oVRF6OGki",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224124L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:56.538Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:11.368Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f506f4a2dea8fc15ed2"
+  },
+  "name": "Randula J.W.M.J",
+  "email": "jwmjr.22@uom.lk",
+  "password": "$2b$10$vWuvZD8Iea36SALWGtMmBebayEcBq7CbbZeJl3yeTC2ET5SxlK8I.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225090J",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:56.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:56.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f516f4a2dea8fc15ed5"
+  },
+  "name": "Rajakaruna R.E.M.H.M.",
+  "email": "remhmr.22@uom.lk",
+  "password": "$2b$10$ScJexXvoerkFzm.JMpaAO.PZ2hWXors/OBsZNIbIIGzEN8L0iyHIS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225085A",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:57.084Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:57.084Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f516f4a2dea8fc15ed8"
+  },
+  "name": "W.M.E.S. Warnasooriya",
+  "email": "warnasooriyaw.22@uom.lk",
+  "password": "$2b$10$M..L5zStWPH3zRq0CWKhreqPx4VXnFwPCclF8ZzpF4zFHxafXJZke",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224208A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:57.363Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:34.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f516f4a2dea8fc15edb"
+  },
+  "name": "Perera K.W.N.N.",
+  "email": "kwnnp.22@uom.lk",
+  "password": "$2b$10$0sOU0mIgkvIAsXMbFL.whueUwBKconkdjEngVIYW3VAlprCg8yfby",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224146F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:57.628Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:40.838Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f516f4a2dea8fc15ede"
+  },
+  "name": "K.K.L Kottegoda",
+  "email": "kottegodakkl.22@uom.lk",
+  "password": "$2b$10$TJzWEPQwl5tHY5jjf3eqFuz0P47ZvzzmPU2YMMklZgzS2UY74InL2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225057P",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:57.898Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:57.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f526f4a2dea8fc15ee1"
+  },
+  "name": "Malindu Dinushka",
+  "email": "dinushkam.22@uom.lk",
+  "password": "$2b$10$ufo.Bbv3qE7dWWC/AWBC/uqYDi5TzV266jrGO4wMnCsPi0MZ41.ZS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225036C",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:58.160Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:58.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f526f4a2dea8fc15ee6"
+  },
+  "name": "S.S.Keerthirathna",
+  "email": "sskeerthirathna.22@uom.lk",
+  "password": "$2b$10$r/epfY4x9fpGXm/UATUseeWaGLlWiPJ1en25dwqn10wa/MgbKuike",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225054E",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:58.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:58.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f526f4a2dea8fc15ee9"
+  },
+  "name": "W.N.N.Welgama",
+  "email": "wnnwelgama.22@uom.lk",
+  "password": "$2b$10$jqpQ5PHPdt/b5//wZlYX3uJ/VGFc/S3y047L1nuhbrKfXSz0.T3ZG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224213J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:58.935Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:38.223Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f536f4a2dea8fc15eec"
+  },
+  "name": "J.G.J.M.R.K Bandara",
+  "email": "bandaraj.22@uom.lk",
+  "password": "$2b$10$N0LuM8tXuIO8XLLdVfFMzebe1wt278.szNuFFYdw9ezuBwbUenuDC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225015L",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:59.198Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:38:59.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f536f4a2dea8fc15eef"
+  },
+  "name": "Nallaperuma V.N",
+  "email": "nallaperumavn.22@uom.lk",
+  "password": "$2b$10$NeWgrudxzoH0rsPLufqWLeJ6mlldGuzNh.xQdVQKHfQvW6j/CIVpO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224131F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:59.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:40.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f536f4a2dea8fc15ef2"
+  },
+  "name": "W.D.M.M.S Karunarathna",
+  "email": "karunarathnaw.22@uom.lk",
+  "password": "$2b$10$XrD8mzrz1Cm4r3m9Fqomku2YJvZsDzYtvowDSrmQR.0DW41NcN5Gu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224103X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:59.720Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:18.717Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f536f4a2dea8fc15ef5"
+  },
+  "name": "Kumarasiri H.S.M.",
+  "email": "kumarasirihsm.22@uom.lk",
+  "password": "$2b$10$1XbPTjGPb6o8VXM5f053Wut/JfXM.sTigs9BD0789luwIPduBe8X6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224243B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:38:59.979Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:24.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f546f4a2dea8fc15ef8"
+  },
+  "name": "Muthukumarana H.T.L.H.",
+  "email": "htlhm.22@uom.lk",
+  "password": "$2b$10$KdoDzuHRBU.NZqeqUD7Sw.gQ2BfHZYOWyY.64RFrrpmjbZ8wHt2zu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224129G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:00.239Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:24.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f546f4a2dea8fc15efb"
+  },
+  "name": "Jayasinghe D.D.M",
+  "email": "jayasingheddm.22@uom.lk",
+  "password": "$2b$10$wbCSf7RVAYfb2VXcyCkTmO/nMfN9YLLmDBFxeU8wv/wajKn1l5efG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "225043U",
+  "degree": "ITM",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:00.537Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T03:39:00.537Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f546f4a2dea8fc15efe"
+  },
+  "name": "Yasanayaka H.K.A.R.G.",
+  "email": "hkargy.22@uom.lk",
+  "password": "$2b$10$wHHSU6b0c./xpqbPxIjKrOsVmpHOIs7HYvACDPqRDjcUwzjhMfpIC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224221G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:00.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:42.491Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f556f4a2dea8fc15f01"
+  },
+  "name": "A.G.A.B.Wimalasuriya",
+  "email": "agabwimalasuriya.22@uom.lk",
+  "password": "$2b$10$p6k83uo4CifujGwib9LMHuWbbvpjRGyjj8TG/dmPClur.vKbOWOIK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224220D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:01.074Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:57.113Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f556f4a2dea8fc15f04"
+  },
+  "name": "Kahingalage S.L.",
+  "email": "kahingalagesl.22@uom.lk",
+  "password": "$2b$10$Oavns4VKKVT2fXtkx87zCu.I6sACl1yMwpxr0PTrU4eilnPISnZPG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224100K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:01.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:31.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f556f4a2dea8fc15f07"
+  },
+  "name": "Sarathchandra K.T.M.",
+  "email": "sarathchandraktm.22@uom.lk",
+  "password": "$2b$10$k6Flrigmb6zaY5Dsi4l4cOosRaZ677arSKw7xd.H1JnAoppc6fTXq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224171C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:01.612Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:25.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f556f4a2dea8fc15f0a"
+  },
+  "name": "Priyadarshana D.V.M",
+  "email": "priyadarshanadvm.22@uom.lk",
+  "password": "$2b$10$MBW9a762BaZRb47jOvFmqu31i6CYTb/5TOsCr2wZPrDdKCJsuDeY2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224153A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:01.868Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:19.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f566f4a2dea8fc15f0d"
+  },
+  "name": "Silva T. W. V. P.",
+  "email": "silvatwvp.22@uom.lk",
+  "password": "$2b$10$EdbPOl/Vv0eKxFwIdrUvru2TleFiJ9.pyv1bfsqihFzfkKsVjiFXa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224185X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:02.125Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:54.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f566f4a2dea8fc15f10"
+  },
+  "name": "Katukithulgala.H",
+  "email": "katukithulgalah.22@uom.lk",
+  "password": "$2b$10$QA4rvKORQ7URhWQ2KcV7Pe/ekTM2TxfVVw.8XsadKFzBcS4nmFcs.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224105F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:02.378Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:16.171Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e5f566f4a2dea8fc15f13"
+  },
+  "name": "Wickramasooriya B.G.P.V.",
+  "email": "bgpvw.22@uom.lk",
+  "password": "$2b$10$tUQ.7dErZCMe0Ofcm/dJHOxoQJlzWGUrYF1F/NrvJpG1R9PXrDwpy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224217B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:39:02.634Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:09.308Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6304ce526697d05096d6"
+  },
+  "name": "Rajapaksha R.P.L",
+  "email": "rajapaksharpl.22@uom.lk",
+  "password": "$2b$10$rDQd5a2EUiqJoZEjKt7sN.mLvKYGIW4CXBEyCfYspyNPACYDer7PW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224156K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:54:44.073Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:18.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6312ce526697d0509741"
+  },
+  "name": "Kovintharajan K",
+  "email": "kovintharajank.22@uom.lk",
+  "password": "$2b$10$m5oAWzlQlr0wLhAigdA23.gxIfSG6MITyL./i2a32NECMwp.b6Je6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224109V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:54:58.173Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:47.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6315ce526697d0509758"
+  },
+  "name": "Wickramathunge M.R.",
+  "email": "wickramathungemr.22@uom.lk",
+  "password": "$2b$10$qBqlPIBmxalLy/ARwmLP3uFyQWPNPH5V7nQPS4/mry.v.SnV39rhW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224218E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:01.043Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:53.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6317ce526697d0509769"
+  },
+  "name": "Nethmi J.A.S",
+  "email": "nethmijas.22@uom.lk",
+  "password": "$2b$10$gsCqUdDJUeW/93SvktRew.QRaSt9G2IVC8wpWRpFcIkVdJFawXNw.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224134J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:03.130Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:57.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6317ce526697d0509770"
+  },
+  "name": "Umair N.A.",
+  "email": "umairna.22@uom.lk",
+  "password": "$2b$10$GhIYs9INeCn.5LWnd2aew.FeceL7xSRyDEsFTcZGh.yWCYl2VaNMq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224200R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:03.910Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:58.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e631ace526697d0509788"
+  },
+  "name": "Nivethan R.",
+  "email": "nivethanr.22@uom.lk",
+  "password": "$2b$10$PsPb5nOFxcdXB1afqxLbZOwb50.l1nhjcTGidJ1o0chxqzBAS0zOi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224138H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:06.766Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:03.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e631bce526697d050978d"
+  },
+  "name": "Perera J.K.A.T",
+  "email": "jkatp.20@uom.lk",
+  "password": "$2b$10$HDt6Fc95tMZQeJr/Utxxe.x9L63YoPYknheA2X4zIahzlC3l4g9lS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "204155M",
+  "degree": "IT",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:07.300Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:04.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e631bce526697d0509790"
+  },
+  "name": "Dishalini PB",
+  "email": "dishalinipb.20@uom.lk",
+  "password": "$2b$10$XlskJ2br9/dugsr9gwM7lenqTjmxhqp8QKT.DkqqubeKJ6xr0IARu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "205019J",
+  "degree": "ITM",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:07.563Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:05.540Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e631bce526697d0509793"
+  },
+  "name": "Kanuja Y",
+  "email": "kanujay.20@uom.lk",
+  "password": "$2b$10$qLUO0CRLFHnVLggUPv08n.iIYHBm413L09ifmB5HSI4Nh62ov5iJa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "205049B",
+  "degree": "ITM",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:07.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:05.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e631cce526697d0509796"
+  },
+  "name": "Rishan RM",
+  "email": "rishanrm.20@uom.lk",
+  "password": "$2b$10$VxqcJjri7Y6TE9Ju2bhWPeHvuCR/gN4N.KTgy58LFu92cZ2XASpXm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "205087M",
+  "degree": "ITM",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:08.074Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:06.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6320ce526697d05097bb"
+  },
+  "name": "Padmasiri H.A.S.N",
+  "email": "hasnp.21@uom.lk",
+  "password": "$2b$10$wOsGw8f59d38Z3W3SKCSkOBRpd2cKnmESGYDHd7mxIbqXFTqJmdSG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "214142F",
+  "degree": "IT",
+  "batch": 21,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:12.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:17.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6324ce526697d05097da"
+  },
+  "name": "Wijethunge L.S.K",
+  "email": "wijethungelsk.20@uom.lk",
+  "password": "$2b$10$o27lhbSTughgM4RjgE2SuOs2DFbfX33FmF80Ez66DTEwpOmOJQU62",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "204235J",
+  "degree": "IT",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:16.616Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:25.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6324ce526697d05097dd"
+  },
+  "name": "Salgadu W.V.P",
+  "email": "salgaduwvp.20@uom.lk",
+  "password": "$2b$10$ebyWX3nvWuyVc0At99zUP.JkmcuxJ4EnQQFQ3KaHbikaLdnttuk6q",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "205094G",
+  "degree": "ITM",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:16.871Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:25.501Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6325ce526697d05097e0"
+  },
+  "name": "Rathnayaka R.M.S.S",
+  "email": "rmssr.20@uom.lk",
+  "password": "$2b$10$pOnJzrSpGZ8J0HiURELkgOOjRfrz3GhB9wd4SReaZKIEYL6LhY9xq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "205086J",
+  "degree": "ITM",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:17.127Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:25.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6325ce526697d05097e3"
+  },
+  "name": "Oushadi G.G.P.I.",
+  "email": "ggpio.20@uom.lk",
+  "password": "$2b$10$G4qbHwQHDxfx87dgzljc.uZtQ2BRCnKQtzlnqb7hBPj68fQmCMxmG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "205072M",
+  "degree": "ITM",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T03:55:17.382Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:26.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e6466ffed45d2ed8b25fa"
+  },
+  "name": "Thuvaragan.G",
+  "email": "thuvaragang.226n@uom.lk",
+  "password": "$2b$10$2lb6wwK9b.8GMIc2IJ5EsuAu.iADL0/9iD5thpOXVk6dynXfnw2xS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224196N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:00:38.724Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:02.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e648bffed45d2ed8b2739"
+  },
+  "name": "Wickramadhara E.W.M.Y",
+  "email": "ewmyw.224a@uom.lk",
+  "password": "$2b$10$/wULu3IzPFH9CHLTHr9GGuXvZ4glZoncrwteTZxHz/rGll0Yx8Jwe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "2242234A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:01:15.968Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:59.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64b508699c0d0b394dad"
+  },
+  "name": "Chandinu B.A.A",
+  "email": "chandinubaa.22@uom.lk",
+  "password": "$2b$10$Zwj94x5MXnPYuRppmLEOculi34ciTk2mAdxAC7pzxVsr9RKb2D.yK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224027R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:01:57.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:01:57.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64b808699c0d0b394dc3"
+  },
+  "name": "Hettiarachchi H.A.S.S",
+  "email": "hassh.22@uom.lk",
+  "password": "$2b$10$9JVYHM8K8/fKRToyJDgguu1WHQfuAARrUBxoNnaoyQWpnri6XN4QO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224073D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:00.170Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:00.170Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64b808699c0d0b394dca"
+  },
+  "name": "De Alwis K.K.I.T.",
+  "email": "alwisdekkit.22@uom.lk",
+  "password": "$2b$10$AXA9wVOJluJgWOKmLZ3RuezKExSg668CIxw7RcyN/k/CfMQ4/GtBS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224033G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:00.920Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:00.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64bb08699c0d0b394de0"
+  },
+  "name": "Chajayraj K.",
+  "email": "chajayrajk.22@uom.lk",
+  "password": "$2b$10$qzAvXL4vFjk.Ihdvv.O2Kevhy9jpAWQ85/DaWzphmXmB5j/EFatru",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224025J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:03.262Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:03.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64bb08699c0d0b394de7"
+  },
+  "name": "H.G.P.M.Bandara",
+  "email": "hgpmbandara.22@uom.lk",
+  "password": "$2b$10$bMbj7DIbPraBkpvtp/FIdOfmzEkCsN60lC/uX333gZ7FbnmtmX5PO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224019U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:03.916Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:03.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64bc08699c0d0b394deb"
+  },
+  "name": "A.M.K.Harshana",
+  "email": "amkharshana.22@uom.lk",
+  "password": "$2b$10$rl6ehqgQ1uZ2JpH1p7M.aesZFoJwXglz2amnAn3vE6P5wFIA1iuTe",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224070P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:04.244Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:04.244Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64bd08699c0d0b394df5"
+  },
+  "name": "E.A.D.M. Edirisinghe",
+  "email": "edirisinghee.22@uom.lk",
+  "password": "$2b$10$oQGyNLjFwqkvx/zcUPdNV.DcTyBSCmOWDkz2DijbrHoZwx1ZGGaNi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224047D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:05.229Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:05.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64bd08699c0d0b394df9"
+  },
+  "name": "W.A.B. Alwis",
+  "email": "alwiswab.22@uom.lk",
+  "password": "$2b$10$5m.9p6GaRJnWE8ql8r7FT.ZpTS0SlXTbhyX2RQrCgmEOpR5LRQJSS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224007G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:05.580Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:05.580Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64bf08699c0d0b394e09"
+  },
+  "name": "M.W.S.N.R Gunawardhana",
+  "email": "gunawardhanam.22@uom.lk",
+  "password": "$2b$10$5XIH3TBpEYMXUQUcrTcpuOyHLddkpxYRPc.kTA5VA26UAT0gzX/4y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224065F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:07.311Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:07.311Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c008699c0d0b394e16"
+  },
+  "name": "Jayalath K. P. W. N. P",
+  "email": "jayalathkpwnp.22@uom.lk",
+  "password": "$2b$10$nSSOt8l0VcOl7BoS/wQRaegAU5WWn.XUAk4p8qN/CEK0wVxkPGDnu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224083H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:08.643Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:08.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c008699c0d0b394e1a"
+  },
+  "name": "Herath H.M.A.A",
+  "email": "hmaah.22@uom.lk",
+  "password": "$2b$10$.a5bWKFLIg/WnTEc7OZL0eKaVcfzfHqwKMi/8UlNgk4YQzKKMZ8/i",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224072A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:08.975Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:08.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c108699c0d0b394e21"
+  },
+  "name": "Dissanayaka D.M.N.D",
+  "email": "dmndd.22@uom.lk",
+  "password": "$2b$10$suqlAWjkIcaBhzbDQAW4J.Awa22LVq2mbdgmhV0Q1M45xZ9tNkT3q",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224042H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:09.654Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:09.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c408699c0d0b394e3a"
+  },
+  "name": "M.C. Kahanda",
+  "email": "kahandamc.22@uom.lk",
+  "password": "$2b$10$GSrsRLXwzPdjjiq8wcWAv.ZT4BtgAtURIIoUFq30sfsCGRfQoToo2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224098H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:12.368Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:12.368Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c408699c0d0b394e3e"
+  },
+  "name": "L.M. Gurusinghe",
+  "email": "gurusinghelm.22@uom.lk",
+  "password": "$2b$10$P21MK68Dr2a0H71AzT1JWe6oFXtGQ2NpgEw3jAGhmIamA/OqGmXCS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224066J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:12.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:12.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c508699c0d0b394e42"
+  },
+  "name": "W.T.W. De Silva",
+  "email": "silvawtwde.22@uom.lk",
+  "password": "$2b$10$EyOlVGLYkpCEQiUiSnqqqeQPPsKzJoXkqlaDYx0KT93WHgi.dtcLi",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224035N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:13.146Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:13.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c508699c0d0b394e46"
+  },
+  "name": "D.K. Deniyegedara",
+  "email": "deniyegedaradk.22@uom.lk",
+  "password": "$2b$10$MkoWF7OXOhknmHl7ohhUO.qIGbhWDoLOXc2O9zLHkA.oaEE2lfqlO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224036T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:13.481Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:13.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c608699c0d0b394e53"
+  },
+  "name": "G.G.P.T. Gamage",
+  "email": "gamageg.22@uom.lk",
+  "password": "$2b$10$xeybYv4xLA1Phyl1W/PSJ.V8L5yxSva7EMSgPcNboQnbCBjd93Y9u",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224056E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:14.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:14.834Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c708699c0d0b394e57"
+  },
+  "name": "P.A.D.S. Gimhana",
+  "email": "gimhanap.22@uom.lk",
+  "password": "$2b$10$v/7GYQ1ZNZiVR2.vivcYbe/6.SwBUl3PbjJBxpoX7w835aoRwt3iO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224058L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:15.180Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:15.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c708699c0d0b394e5b"
+  },
+  "name": "S.D. Abeyweera",
+  "email": "abeyweerasd.22@uom.lk",
+  "password": "$2b$10$7algkbqirzLf35ghNpWvdOLeNXZ0zuv5GRC6Ux4Qc5vBsDJAas/6.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224004U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:15.511Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:15.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64c808699c0d0b394e68"
+  },
+  "name": "N.W.M.H. Hadithya",
+  "email": "hadithyan.22@uom.lk",
+  "password": "$2b$10$RrlUY58V6V/M2P2liqlnUuO0ln6U27bnrBf3laH8PjwrdO5Ozctd6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224067M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:16.831Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:16.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ca08699c0d0b394e75"
+  },
+  "name": "Gamage R.G.M.C.",
+  "email": "rgmcg.22@uom.lk",
+  "password": "$2b$10$bVPoPd6e6S6DRwc/qzbF7e60b4uQBprKQtFrfaZNcIV5Jbo/ZVsSW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224057H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:18.143Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:18.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ca08699c0d0b394e7c"
+  },
+  "name": "Gunawardana T.U.D",
+  "email": "gunawardanatud.22@uom.lk",
+  "password": "$2b$10$X8miPnhxgaG6GvQ1ft6Gpezpwxa/YYCsNfzjCyGXn1vJK9QeUUcme",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224063X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:18.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:18.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64cb08699c0d0b394e80"
+  },
+  "name": "Dassanayake S.M",
+  "email": "dassanayakesm.22@uom.lk",
+  "password": "$2b$10$QTGhVVB1zFNNNsngmdrufO76f09q/MSTFBLcXEqsbkmFNlKaO32zG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224032D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:19.160Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:19.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64cb08699c0d0b394e84"
+  },
+  "name": "Edirisinghe R.K",
+  "email": "edirisingherk.22@uom.lk",
+  "password": "$2b$10$Kt1BL28nFKqPN.QeaUFvIeNdtGzlruxjskXKE/CEzdNSUsTPcoLse",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224048G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:19.488Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:19.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64cc08699c0d0b394e8e"
+  },
+  "name": "Dahamneth W.M.S.S",
+  "email": "wmssd.22@uom.lk",
+  "password": "$2b$10$8fSBMFXjJRTT26RYbkdjUeL.ZtXhfw1Z7D91S/rvozyoMsMUKBWkC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224031A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:20.471Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:20.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64cd08699c0d0b394e9b"
+  },
+  "name": "Bandara  W.G.C.W",
+  "email": "wgcwb.22@uom.lk",
+  "password": "$2b$10$UMPR1ZoFoF.xYALL5CAyrOgjk6IVa9Ol.QcnLPIRdBMUaucsek5hC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224022X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:21.794Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:21.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ce08699c0d0b394e9f"
+  },
+  "name": "D.M.T.N.Dissanayake",
+  "email": "dmtndissanayake.22@uom.lk",
+  "password": "$2b$10$fgBs.vjMMlamlCbqRDKu2eDCT5pfTouJg1R9SFlZ9nSmN5K/yAZdq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "2240444P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:22.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:22.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ce08699c0d0b394ea6"
+  },
+  "name": "P.D.S.C.Dissanayake",
+  "email": "pdscdissanayake.22@uom.lk",
+  "password": "$2b$10$rhUb/VUDrOIIMtAXvz4in.Pq8DNMgA4CAqbg4aWxAYgZdi6l571uq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224045U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:22.820Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:22.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64cf08699c0d0b394ead"
+  },
+  "name": "S.M.N.A.Jayasekara",
+  "email": "smnajayasekara.22@uom.lk",
+  "password": "$2b$10$G7FGcTXtXbJCJTjEa3DgJeNKs3AAn9QJrpm2ENIGIgpp66stnGmBW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224087A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:23.498Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:23.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64cf08699c0d0b394eb1"
+  },
+  "name": "Dhanuja S.A.",
+  "email": "dhanujasa.22@uom.lk",
+  "password": "$2b$10$U2iRS6aLXaW60VQ1aFxcD.5DpQvmKrx.1HDj1Jtpw5EvRQ27A58y6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224038C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:23.846Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:23.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d208699c0d0b394eca"
+  },
+  "name": "Hettige T.A.",
+  "email": "hettigeta.22@uom.lk",
+  "password": "$2b$10$hs99q3fEnWY2y9vqb/WDl.JEHxALDCODXu8I8X0V34VbLHidjy60.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224074G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:26.518Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:26.518Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d308699c0d0b394ed1"
+  },
+  "name": "M.FM.Fadhil",
+  "email": "mfmfadhil.22@uom.lk",
+  "password": "$2b$10$HwHZmQfoPqox5XoFHXA/IejS9JRwp.e97nC9vwuCao/hkBKeUpe.y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224051J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:27.181Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:27.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d308699c0d0b394ed8"
+  },
+  "name": "M.I.Abdulla",
+  "email": "miabdulla.22@uom.lk",
+  "password": "$2b$10$fS/jn5en3pGiqvlLNvifC.PqFrKp6t.gz6VPzYRouAnpTkotfdfaC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224001H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:27.854Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:27.854Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d508699c0d0b394ee5"
+  },
+  "name": "K.J.M. Amarasiri",
+  "email": "amarasirikjm.22@uom.lk",
+  "password": "$2b$10$MPzHDOAnRLMByvvrm9bvs.r3DCKl01LcG73T2kyYZbIpSNV7783bq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224008K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:29.187Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:29.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d508699c0d0b394eec"
+  },
+  "name": "P.P.P. Jayathilake",
+  "email": "jayathilakeppp.22@uom.lk",
+  "password": "$2b$10$aVBc6Kj/2qAlZYZPtK8s/eC0wnSs8FKeniaBX6slIR0zyHhXsZxRW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224092J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:29.849Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:29.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d608699c0d0b394ef0"
+  },
+  "name": "K.T.N Indrajith",
+  "email": "indrajithktn.22@uom.lk",
+  "password": "$2b$10$1KDoGEO6ieZcTMRMSSwD4uHnz1TwZoutVGM0CohpEAuid4dXqt9hu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224078X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:30.176Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:30.176Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d708699c0d0b394f00"
+  },
+  "name": "Edirisinghe T.S.",
+  "email": "edirisinghets.22@uom.lk",
+  "password": "$2b$10$IIwpjo.1cUKM0ppP8UBpKOeHBdsv62y8tlobh7Ge7IfFLzmGV/kgq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224049K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:31.827Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:31.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d808699c0d0b394f07"
+  },
+  "name": "M.M.S.Dulshan",
+  "email": "mmsdulshan.22@uom.lk",
+  "password": "$2b$10$yZmfjVG3TRjS7QWnpZCd7ezpLve2OOACL7vxrNR/XDcf1LwWaQobS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224046A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:32.477Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:32.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d808699c0d0b394f0b"
+  },
+  "name": "K.S.Himaya",
+  "email": "kshimaya.22@uom.lk",
+  "password": "$2b$10$WcO3utenNBjI7qSGNDidkeV4cSgmu/sAcJrEOUguj8KZ3sO/4S6zG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224076N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:32.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:32.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d908699c0d0b394f0f"
+  },
+  "name": "J.V.S.S.Jayasekara",
+  "email": "jvssjayasekara.22@uom.lk",
+  "password": "$2b$10$Fzvgf3.PFFld.5QGA6r3bOCXr/UL45inNeuTVdpV7KfTGElBpTAKO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224086U",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:33.141Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:33.141Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64d908699c0d0b394f16"
+  },
+  "name": "B.N.V. Gunathilaka",
+  "email": "gunathilakabnv.22@uom.lk",
+  "password": "$2b$10$eY3l68WF5FD77wkXMw3Zt.7rKuNDhQV4qX2NL6jWT.CSl/QFzdCN.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224059P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:33.799Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:33.799Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64da08699c0d0b394f1a"
+  },
+  "name": "M.H.A.J.D. Aberathna",
+  "email": "aberathnam.22@uom.lk",
+  "password": "$2b$10$ND9uzZSpUEV2UTbndjSwFe7Qb6KXmhxcxwfQhWtAOCBUGVVj6R/z2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224003P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:34.127Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:34.127Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64dc08699c0d0b394f30"
+  },
+  "name": "Gamaarachchi SA",
+  "email": "gamaarachchisa.22@uom.lk",
+  "password": "$2b$10$RCBJ7ESpUUkuqWZFDFiypeGGb2txeCskTmz8.vup2.cFWoAdfQtNq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224054V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:36.480Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:36.480Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64de08699c0d0b394f43"
+  },
+  "name": "D.T.H.N. Jayakody",
+  "email": "jayakodyd.22@uom.lk",
+  "password": "$2b$10$OZyDWg0o6tKbsxDCSS8H2.SGALndzgUYoIDKqX1ffMHhKldG9AinG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224082E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:38.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:38.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64de08699c0d0b394f47"
+  },
+  "name": "G.H.T Adithya",
+  "email": "adithyaght.22@uom.lk",
+  "password": "$2b$10$6A90CbAzn07jy.Fi5OshreXU9.oEmxoEFcW92DqLS/WDhM6c0uVeS",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224005A",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:38.875Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:38.875Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64df08699c0d0b394f4b"
+  },
+  "name": "Jayasuriya M.D.I",
+  "email": "jayasuriyamdi.22@uom.lk",
+  "password": "$2b$10$ujqjQKwv.NmwObJKdfi70.scMgBgffSxbEIfoKYZnmUBdUkUjKXHu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224090C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:39.208Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:39.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e008699c0d0b394f58"
+  },
+  "name": "Appuhami A.P.T.R.D.",
+  "email": "aptrda.22@uom.lk",
+  "password": "$2b$10$eahu6II8WR8RUs8unJ1d1ep8UPwb6/RsIg46x00Eiz9x9YLnQnbzC",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224012R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:40.515Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:40.515Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e108699c0d0b394f62"
+  },
+  "name": "Amarathunga A.T.",
+  "email": "amarathungaat.22@uom.lk",
+  "password": "$2b$10$uU8ZU8FMvl1I6UYqiOw3g.b3vjv0/k1EjtFK3HvZZciLu3.4D0mjm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224009N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:41.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:41.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e108699c0d0b394f66"
+  },
+  "name": "Jayaprabha P.H.J.",
+  "email": "jayaprabhaphj.22@uom.lk",
+  "password": "$2b$10$q7T8kcZXS6dykwA3IhBhceMHFkaXBAVdt8u2pX5ZydjFLWiKf3iV6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224085P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:41.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:41.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e408699c0d0b394f7c"
+  },
+  "name": "S. Hamsakumar",
+  "email": "hamsakumars.22@uom.lk",
+  "password": "$2b$10$HawH5pOF9xSDn/kR0GIxDuouGhUIIjT1J3XT3oFRWqcKGAwBvccHq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224068R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:44.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:44.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e608699c0d0b394f8c"
+  },
+  "name": "Jayamanna G.P.",
+  "email": "jayamannagp.22@uom.lk",
+  "password": "$2b$10$rAq8l4KuMUfvtO57r.Ijcu9/NuLS3uEODiZXfM8cKEqBQNCCif3oG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224084L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:46.033Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:46.033Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e608699c0d0b394f90"
+  },
+  "name": "Gunathunga G.A.J.H.",
+  "email": "gajhg.22@uom.lk",
+  "password": "$2b$10$NghRgb0tuuSPDklqRlqATO3FmYa7/otPqj9Yd37KfeIK4xddMaTx2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224062T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:46.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:46.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e608699c0d0b394f94"
+  },
+  "name": "Induwara K.A.P.",
+  "email": "induwarakap.22@uom.lk",
+  "password": "$2b$10$wWnTCsdRDmM/T7S2wYhdEOv3./Hq.m3QyzvpN1mCoPGyrmy4gFY2y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224079C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:46.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:46.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e708699c0d0b394f98"
+  },
+  "name": "De Silva U.C.P.",
+  "email": "silvadeucp.22@uom.lk",
+  "password": "$2b$10$UDC96k9WIW9hIh6NcedH9OAq39G/dkP8bxN6yRpXxGveAcADtj/SK",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224034K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:47.017Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:47.017Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e708699c0d0b394f9f"
+  },
+  "name": "Harishanth K",
+  "email": "harishanthk.22@uom.lk",
+  "password": "$2b$10$OQsHchjrkxc6O3m1JOhSx.zL64VT7dU3cOIzVBs8f8CHjYDP5ee/i",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224069V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:47.667Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:47.667Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e908699c0d0b394faf"
+  },
+  "name": "B.L. Imesh",
+  "email": "imeshbl.22@uom.lk",
+  "password": "$2b$10$Pgxs0cv03zvR/QhaLUJdiuAwuEfjMnrWPjsZQ8/sg/g/yYK2tJIca",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224077T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:49.445Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:49.445Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64e908699c0d0b394fb3"
+  },
+  "name": "J.A.D.T. Jayasingha",
+  "email": "jayasinghaj.22@uom.lk",
+  "password": "$2b$10$6/Bx6zhA8g/s2mCfOBpcYOn//NgPXcDYfVO8rRRoSzRpJC0hBf8pW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224088D",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:49.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:49.769Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ea08699c0d0b394fba"
+  },
+  "name": "A.V.G.B. Chamod",
+  "email": "chamoda.22@uom.lk",
+  "password": "$2b$10$JE4m.nD4Kz0j4T7zrr0ku.johGNyAgGjtIRODjbf3/xA85PIm5tB2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224026M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:50.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:50.517Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64eb08699c0d0b394fc4"
+  },
+  "name": "K.J.T Kahingala",
+  "email": "kahingalakjt.22@uom.lk",
+  "password": "$2b$10$71Px1d8O2jZU02mChVVwGOzyyylBBPC83hfzxVGNecJ5GK6KLd1I2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224099L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:51.538Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:51.538Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ec08699c0d0b394fcb"
+  },
+  "name": "T.A.S. Ashara",
+  "email": "asharatas.21@uom.lk",
+  "password": "$2b$10$Ynq6K0KkwTKJEZD3Sk9kuOV/WHYMPKOB8roENR2gt9BKYpcfJ660q",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "214021J",
+  "degree": "IT",
+  "batch": 21,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:52.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:52.192Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ee08699c0d0b394fe1"
+  },
+  "name": "Chathurya W.J.N.",
+  "email": "chathuryawjn.22@uom.lk",
+  "password": "$2b$10$w6RLpnVjZzKrVUJfwr0nyeB0B0q.B2Z5XnXI9EpHOyyQ8sRdmolSW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224029B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:54.478Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:54.478Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ef08699c0d0b394fee"
+  },
+  "name": "Jayawickrama P.M.V",
+  "email": "jayawickramapmv.22@uom.lk",
+  "password": "$2b$10$ksMlWk6nUPG1KMxMGacBgOagtWDsHCyZaBV.dGkrjLAowp9Qmf3kW",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224096B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:55.816Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:55.816Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f008699c0d0b394ff2"
+  },
+  "name": "Abenayake D.M.R.L",
+  "email": "dmrla.22@uom.lk",
+  "password": "$2b$10$BhhBxWerBBkJj3hw2mTRI.yWy.MiXySiJ9vO6smNAR9D./WgxpFSu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224002L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:56.143Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:56.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f008699c0d0b394ff6"
+  },
+  "name": "Bandara H.M.P.L",
+  "email": "hmplb.22@uom.lk",
+  "password": "$2b$10$xmAYEeo5TNm3S7NmCbXfoeaL3XT9KDuK/HvxujoMgaXIpQnNNEDci",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224020N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:56.502Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:56.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f108699c0d0b395000"
+  },
+  "name": "Gunathilake K.R.H.H",
+  "email": "krhhg.22@uom.lk",
+  "password": "$2b$10$mwGDYf5eLP2.XU8WXc7R/eCXSQH9xQllhpJ22xkN2Fw3oID/lduiq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224061N",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:57.535Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:57.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f208699c0d0b395007"
+  },
+  "name": "Gamage G.D.I",
+  "email": "gamagegdi.22@uom.lk",
+  "password": "$2b$10$pVb/fFNogy2neodDbmHoZ.yualRH3YU43FsM29eMjKllYWyGsAd1y",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224055B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:02:58.197Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:02:58.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f408699c0d0b395020"
+  },
+  "name": "O.P.N.Y.K Bandara",
+  "email": "bandarao.22@uom.lk",
+  "password": "$2b$10$y9JBJiuYiuLjISSjnwfWWee1T/QNUVpiaxmvIXizrYY2MC0RlHUcm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224021T",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:00.874Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:00.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f608699c0d0b39502d"
+  },
+  "name": "P.A.D.D DILSHAN",
+  "email": "dilshanp.22@uom.lk",
+  "password": "$2b$10$tVHG3lVDmZWrVX7hFbKQbeEUSLc1LdpN4t6n7ZyUWUcRmkW1/ahnG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224040B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:02.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:02.409Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f708699c0d0b395037"
+  },
+  "name": "Bavalakshan U.",
+  "email": "bavalakshanu.22@uom.lk",
+  "password": "$2b$10$Ov90Ezuk9P4173Q/dnrS/Of6EMHVrCJ1/emBt8DMhwED6lfeFPdta",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224023C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:03.474Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:03.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64f908699c0d0b395044"
+  },
+  "name": "Jayalath N.S",
+  "email": "jayalathns.20@uom.lk",
+  "password": "$2b$10$z5KATAlHzvK1bcuy61Rei.tPGc5TXeNtbFzqZjSSC0HPnQkoxT5Gu",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "204081G",
+  "degree": "IT",
+  "batch": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:05.158Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:05.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64fb08699c0d0b39505a"
+  },
+  "name": "Ashrif M.J.M",
+  "email": "ashrifmjm.22@uom.lk",
+  "password": "$2b$10$qECms/K8wvIBykTIQLEXaOSrzzmKbiN5mgzLs5rDRlwONypPPRXxq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224014B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:07.539Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:07.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64fc08699c0d0b395064"
+  },
+  "name": "Jayaweera W.G.H.M.P.S.C.",
+  "email": "wghmpscj.22@uom.lk",
+  "password": "$2b$10$dZr3fIhWxep5wfzpDwuMkuT2M2B.e7cN3Pc.3gIHeBrYF9XQxZyj2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224094R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:08.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:08.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64fd08699c0d0b395068"
+  },
+  "name": "Jayawickrama L.G.I.A.",
+  "email": "lgiaj.22@uom.lk",
+  "password": "$2b$10$5P5UqF8KRDVPL3F0uiDbF.aOB9E691Uzmyy9m5vWUqv8InIiB5XzO",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224095V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:09.003Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:09.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64fd08699c0d0b39506f"
+  },
+  "name": "Fernando B.M.S.P.",
+  "email": "bmspf.22@uom.lk",
+  "password": "$2b$10$IeoOThpa5agURhxOXGVTtepG17oC585iFu2dvVEPK4KsR3xfct30K",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224052M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:09.670Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:09.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64fe08699c0d0b395073"
+  },
+  "name": "Gunawardhana G.W.G.M",
+  "email": "gwgmg.22@uom.lk",
+  "password": "$2b$10$pqW9tYMdkMEfprWDmgmySeFbd6EpToiGNCODAGFJtN2Ek1.1NiDZa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224064C",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:10.002Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:10.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64fe08699c0d0b395077"
+  },
+  "name": "Asry M.I.M",
+  "email": "asrymim.22@uom.lk",
+  "password": "$2b$10$0mfmUkYzEuHpVxCZDVdOFuOaUlR8rTQelMp5OSeYGDrRldjatFNU2",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224015E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:10.325Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:10.325Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64fe08699c0d0b39507b"
+  },
+  "name": "Bamunusingha C.L.N",
+  "email": "bamunusinghacln.22@uom.lk",
+  "password": "$2b$10$vtyPhFaW1McRggV4HL6n9u/qKJ/arooovH5LgXbg.ok9cpDP7KxHa",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224018P",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:10.706Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:10.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e64ff08699c0d0b39507f"
+  },
+  "name": "Dissanayaka E.J.V.J",
+  "email": "ejvjd.22@uom.lk",
+  "password": "$2b$10$yB1Ms160BjEKz1atJ3FGIevZWaOIHzmjyNd.hxfEuIOcGEgQDg8/a",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224043L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:11.033Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:11.033Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650008699c0d0b395089"
+  },
+  "name": "A.L.K.H Ambegoda",
+  "email": "ambegodaa.22@uom.lk",
+  "password": "$2b$10$cJoV//S4U.MlficEnnepBOHOD4F0HtKPEsyFGfjPlDr1IjS/LFzWG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224010J",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:12.196Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:12.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650008699c0d0b39508d"
+  },
+  "name": "A.M.S.L Attanayake",
+  "email": "attanayakea.22@uom.lk",
+  "password": "$2b$10$9oYPG3G2GizhWwc9c1EpG./0169/gu5hNsN28q/d.u4cshPW22KIm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224016H",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:12.531Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:12.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650208699c0d0b3950a3"
+  },
+  "name": "Inuka W.B",
+  "email": "inukawb.22@uom.lk",
+  "password": "$2b$10$FpFi05Uw8PVg3meruOuFvOOMtWXwtYVZRrCgq8.IDaGgihUT5/Z1m",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224081B",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:14.848Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:14.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650308699c0d0b3950a7"
+  },
+  "name": "Dilminda.W.W.C",
+  "email": "dilmindawwc.22@uom.lk",
+  "password": "$2b$10$cVc5IkSxeYmSZhRY/HE/uekPRIWrhNF7mQ9TmGOvWQtgXTWxhNykG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224039F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:15.178Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:15.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650308699c0d0b3950ab"
+  },
+  "name": "Jayasinghe.J.A.D.S.D",
+  "email": "jayasinghejadsd.22@uom.lk",
+  "password": "$2b$10$DowBQ1TvuQz/4qqlyQDxQOLEOBEHGm3zC4jM/GImTEL22omKwYb22",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224089G",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:15.511Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:15.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650308699c0d0b3950af"
+  },
+  "name": "Dinujaya.W.K.T",
+  "email": "dinujayawkt.22@uom.lk",
+  "password": "$2b$10$jjIetwj8g526mdAY6ySgwuniePKHMbMZCgpUhD9KaE4HsbT5cQ1lm",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224041E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:15.844Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:15.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650508699c0d0b3950bc"
+  },
+  "name": "Hewagama S",
+  "email": "hewagamas.22@uom.lk",
+  "password": "$2b$10$bJWIQYBUacDGynzAiwfAAOzZt.NM1pdAezUyH5hG9soFmXFasZi/a",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224075K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:17.283Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:17.283Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650608699c0d0b3950c6"
+  },
+  "name": "Kahaduwa T.S",
+  "email": "kahaduwats.22@uom.lk",
+  "password": "$2b$10$T6sIHYZmnv5YY8udaQpfYOh/v.ikcQRSUtp8qInuORb00I6GgPCK6",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224097E",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:18.384Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:18.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650708699c0d0b3950d3"
+  },
+  "name": "Balasooriya K.N",
+  "email": "balasooriyakn.22@uom.lk",
+  "password": "$2b$10$XrSXUA91uqGwKyHq05Hf.OyOtNtZ5QvJokfc2Q8XMFE3OUKMBlQAy",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224017L",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:19.710Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:19.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650808699c0d0b3950d7"
+  },
+  "name": "Anush T.",
+  "email": "anusht.22@uom.lk",
+  "password": "$2b$10$y2lmtbeRam8IDPvPm/f4gu0/gGYiH00UtL3GDmZZIznR.tsNxLrMG",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224011M",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:20.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:20.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650908699c0d0b3950e7"
+  },
+  "name": "Bhashitha U.J.M.V.",
+  "email": "ujmvb.22@uom.lk",
+  "password": "$2b$10$8jAfTc7h476kyV1ptnRkkOD3BgWbzz5j2NNk5HwFIdTxYeJoiFqpq",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224024F",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:21.709Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:21.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650a08699c0d0b3950ee"
+  },
+  "name": "Fernando S.D.D.",
+  "email": "fernandosdd.22@uom.lk",
+  "password": "$2b$10$iQFUL9eD8iK1T6s9wvSic.B1gwat0iugBHg2hFwI9cC8lX1PZD24G",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224053R",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:22.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:22.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650b08699c0d0b3950f5"
+  },
+  "name": "Chandrasena C.K.U.",
+  "email": "chandrasenacku.22@uom.lk",
+  "password": "$2b$10$4t7L0Gcq.WgoToU.ac1u/.xw9c2fCxZ2NS.BVxvK5lxKMbJfpiA6m",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224028V",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:23.012Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:23.012Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650b08699c0d0b3950ff"
+  },
+  "name": "Dhanasekara D.M.C.D.B.",
+  "email": "dmcdbd.22@uom.lk",
+  "password": "$2b$10$LNwg2j6Qlb7pJmHRyRaeWeI7SEfPrzwJY/iDPkT1A0WXz8E5C4go.",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224037X",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:23.998Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:23.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e650e08699c0d0b395115"
+  },
+  "name": "Gunathilaka.S.G.S.K",
+  "email": "gunathilakasgsk.22@uom.lk",
+  "password": "$2b$10$iRarvB4CsrvKV6n54lJRv.3rtItB8dpeK6qXGbvb8NhP5ljqVx8Ni",
+  "role": "student",
+  "rfid": null,
+  "indexNumber": "224060K",
+  "degree": "IT",
+  "batch": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-02T04:03:26.478Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T04:03:26.478Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6931d08cb3e4245d5d773815"
+  },
+  "name": "Sehara Fernando",
+  "email": "sehara1010@gmail.com",
+  "password": "$2b$10$vJUhwCH7WS7kQmU0XctVeuEN2b.OBkMEwW1OHNF9DSsy9KZzSkonW",
+  "role": "lecturer",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-04T18:18:52.728Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-04T18:18:52.728Z"
+  },
+  "__v": 0
+}]

@@ -21,8 +21,8 @@ export const lectureSchema = yup.object({
     .trim(),
   type: yup
     .string()
-    .oneOf(["Lecture", "Lab", "Tutorial", "Seminar"] as const)
-    .default("Lecture"),
+    .oneOf(["LECTURE", "LAB", "TUTORIAL", "SEMINAR"] as const)
+    .default("LECTURE"),
   description: yup.string().nullable().max(1000, "Description is too long"),
 });
 

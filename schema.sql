@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS lectures (
   scheduled_at TIMESTAMPTZ NOT NULL,
   duration_hours INTERVAL CHECK (duration_hours > '0 hours') DEFAULT '2 hours', -- duration in hours
   location VARCHAR(255),
-  type VARCHAR(50) CHECK (type IN ('Lecture', 'Lab', 'Tutorial', 'Seminar')) DEFAULT 'Lecture',
+  type VARCHAR(50) CHECK (type IN ('LECTURE', 'LAB', 'TUTORIAL', 'SEMINAR')) DEFAULT 'LECTURE',
   description TEXT,
   status VARCHAR(20) CHECK (status IN ('SCHEDULED', 'COMPLETED', 'CANCELLED')) DEFAULT 'SCHEDULED',
   is_completed BOOLEAN DEFAULT FALSE,
@@ -98,7 +98,7 @@ CREATE TABLE IF NOT EXISTS attendance (
   lecture_id UUID NOT NULL REFERENCES lectures(id) ON DELETE CASCADE,
   student_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
   timestamp TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-  status VARCHAR(20) CHECK (status IN ('PRESENT', 'ABSENT', 'LATE', 'EXCUSED')) DEFAULT 'PRESENT',
+  status VARCHAR(20) CHECK (status IN ('PRESENT', 'ABSENT')) DEFAULT 'PRESENT',
   marked_by UUID REFERENCES users(id) ON DELETE SET NULL,
   method VARCHAR(20) CHECK (method IN ('manual', 'rfid')) DEFAULT 'manual',
   remarks TEXT,
@@ -161,7 +161,6 @@ CREATE TRIGGER update_attendance_updated_at BEFORE UPDATE ON attendance
 --   l.*,
 --   COUNT(DISTINCT a.student_id) as attendance_count,
 --   COUNT(DISTINCT CASE WHEN a.status = 'PRESENT' THEN a.student_id END) as present_count,
---   COUNT(DISTINCT CASE WHEN a.status = 'LATE' THEN a.student_id END) as late_count,
 --   COUNT(DISTINCT CASE WHEN a.status = 'ABSENT' THEN a.student_id END) as absent_count
 -- FROM lectures l
 -- LEFT JOIN attendance a ON l.id = a.lecture_id

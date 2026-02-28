@@ -1,38 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
   LayoutDashboard,
-  BookOpen,
-  GraduationCap,
   Users,
-  Radio,
-  CreditCard,
+  GraduationCap,
+  BookOpen,
   LogOut,
   Menu,
   X,
   ChevronRight,
   Shield,
+  Radio,
+  Loader2,
 } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useCurrentUser, useLogout } from "@/lib/api/client";
 import { cn } from "@/lib/utils";
 
-const navItems = [
-  { href: "/dashboard", label: "Overview", icon: LayoutDashboard },
-  { href: "/dashboard/lectures", label: "Lectures", icon: BookOpen },
-  { href: "/dashboard/modules", label: "Modules", icon: GraduationCap },
-  { href: "/dashboard/students", label: "Students", icon: Users },
-  { href: "/dashboard/live", label: "Live Attendance", icon: Radio },
-  { href: "/dashboard/rfid", label: "RFID Registration", icon: CreditCard },
+const adminNavItems = [
+  { href: "/admin", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/admin/lecturers", label: "Lecturers", icon: Users },
+  { href: "/admin/students", label: "Students", icon: GraduationCap },
+  { href: "/admin/modules", label: "Modules", icon: BookOpen },
 ];
 
-function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
+function AdminSidebar({ onNavigate }: { onNavigate?: () => void }) {
   const pathname = usePathname();
   const router = useRouter();
   const { data: user } = useCurrentUser();
@@ -48,19 +45,22 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
     <div className="flex h-full flex-col">
       {/* Logo */}
       <div className="flex h-16 items-center gap-2 border-b border-slate-800 px-6">
-        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600">
-          <Radio className="h-4 w-4 text-white" />
+        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-600">
+          <Shield className="h-4 w-4 text-white" />
         </div>
-        <span className="heading-font text-lg font-bold text-white">AMS</span>
+        <div>
+          <span className="heading-font text-lg font-bold text-white">AMS</span>
+          <span className="ml-1.5 text-xs font-medium text-red-400">Admin</span>
+        </div>
       </div>
 
       {/* Nav Items */}
       <ScrollArea className="flex-1 px-3 py-4">
         <nav className="flex flex-col gap-1">
-          {navItems.map((item) => {
+          {adminNavItems.map((item) => {
             const isActive =
-              item.href === "/dashboard"
-                ? pathname === "/dashboard"
+              item.href === "/admin"
+                ? pathname === "/admin"
                 : pathname.startsWith(item.href);
             return (
               <Link
@@ -70,50 +70,48 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
                 className={cn(
                   "group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all",
                   isActive
-                    ? "bg-blue-600/20 text-blue-400 border border-blue-500/30"
+                    ? "bg-red-600/20 text-red-400 border border-red-500/30"
                     : "text-slate-400 hover:bg-slate-800/60 hover:text-white"
                 )}
               >
-                <item.icon className={cn("h-4 w-4", isActive && "text-blue-400")} />
+                <item.icon className={cn("h-4 w-4", isActive && "text-red-400")} />
                 {item.label}
                 {isActive && (
-                  <ChevronRight className="ml-auto h-4 w-4 text-blue-400" />
+                  <ChevronRight className="ml-auto h-4 w-4 text-red-400" />
                 )}
               </Link>
             );
           })}
         </nav>
 
-        {/* Admin panel link (only for admins) */}
-        {user?.role === "admin" && (
-          <div className="mt-6 border-t border-slate-800 pt-4">
-            <p className="mb-2 px-3 text-xs font-medium uppercase text-slate-600">
-              Administration
-            </p>
-            <Link
-              href="/admin"
-              onClick={onNavigate}
-              className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-red-400 hover:bg-red-500/10 transition-all"
-            >
-              <Shield className="h-4 w-4" />
-              Admin Panel
-            </Link>
-          </div>
-        )}
+        {/* Separator + link to lecturer dashboard */}
+        {/* <div className="mt-6 border-t border-slate-800 pt-4">
+          <p className="mb-2 px-3 text-xs font-medium uppercase text-slate-600">
+            Quick Access
+          </p>
+          <Link
+            href="/dashboard"
+            onClick={onNavigate}
+            className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-slate-500 hover:bg-slate-800/60 hover:text-white transition-all"
+          >
+            <Radio className="h-4 w-4" />
+            Lecturer Dashboard
+          </Link>
+        </div> */}
       </ScrollArea>
 
       {/* User / Logout */}
       <div className="border-t border-slate-800 p-4">
         <div className="mb-3 flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-cyan-400 text-sm font-bold text-white">
-            {user?.name?.charAt(0)?.toUpperCase() ?? "U"}
+          <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-red-500 to-orange-400 text-sm font-bold text-white">
+            {user?.name?.charAt(0)?.toUpperCase() ?? "A"}
           </div>
           <div className="flex-1 overflow-hidden">
             <p className="truncate text-sm font-medium text-white">
               {user?.name ?? "Loading..."}
             </p>
-            <p className="truncate text-xs text-slate-500">
-              {user?.role ?? ""}
+            <p className="truncate text-xs text-red-400 font-medium">
+              Administrator
             </p>
           </div>
         </div>
@@ -132,18 +130,49 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
-export default function DashboardLayout({
+export default function AdminLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const { data: user, isLoading } = useCurrentUser();
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  // Auth gate: redirect non-admin users
+  useEffect(() => {
+    if (!isLoading && (!user || user.role !== "admin")) {
+      router.replace("/login");
+    }
+  }, [user, isLoading, router]);
+
+  // Show loading while checking auth
+  if (isLoading) {
+    return (
+      <div className="flex h-screen items-center justify-center bg-[#050d1f]">
+        <Loader2 className="h-8 w-8 animate-spin text-red-400" />
+      </div>
+    );
+  }
+
+  // Not admin? Show nothing (redirect happening via useEffect)
+  if (!user || user.role !== "admin") {
+    return (
+      <div className="flex h-screen items-center justify-center bg-[#050d1f]">
+        <div className="text-center">
+          <Shield className="mx-auto h-12 w-12 text-red-400 mb-3" />
+          <p className="text-white font-medium">Access Denied</p>
+          <p className="text-sm text-slate-400 mt-1">Admin privileges required</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex h-screen bg-[#050d1f]">
       {/* Desktop Sidebar */}
       <aside className="hidden w-64 flex-shrink-0 border-r border-slate-800 bg-slate-950/80 lg:block">
-        <SidebarContent />
+        <AdminSidebar />
       </aside>
 
       {/* Mobile Sidebar */}
@@ -171,7 +200,7 @@ export default function DashboardLayout({
               <X className="h-4 w-4" />
             </Button>
           </div>
-          <SidebarContent onNavigate={() => setMobileOpen(false)} />
+          <AdminSidebar onNavigate={() => setMobileOpen(false)} />
         </SheetContent>
       </Sheet>
 

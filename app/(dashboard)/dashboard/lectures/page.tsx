@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   Plus,
   Search,
@@ -12,6 +13,8 @@ import {
   Trash2,
   Filter,
   BookOpen,
+  Radio,
+  Eye,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -47,6 +50,7 @@ import {
   useDeleteLecture,
 } from "@/lib/api/client";
 import type { LectureWithStats, CreateLecturePayload, LectureType, LectureStatus } from "@/lib/types";
+import { LECTURE_TYPE_LABELS } from "@/lib/types";
 
 // ── Status Badge ─────────────────────────────────────────────────────────
 function StatusBadge({ status }: { status: LectureStatus }) {
@@ -65,14 +69,14 @@ function StatusBadge({ status }: { status: LectureStatus }) {
 // ── Type Badge ───────────────────────────────────────────────────────────
 function TypeBadge({ type }: { type: LectureType }) {
   const colors: Record<string, string> = {
-    Lecture: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-    Lab: "bg-purple-500/20 text-purple-400 border-purple-500/30",
-    Tutorial: "bg-cyan-500/20 text-cyan-400 border-cyan-500/30",
-    Seminar: "bg-orange-500/20 text-orange-400 border-orange-500/30",
+    LECTURE: "bg-blue-500/20 text-blue-400 border-blue-500/30",
+    LAB: "bg-purple-500/20 text-purple-400 border-purple-500/30",
+    TUTORIAL: "bg-cyan-500/20 text-cyan-400 border-cyan-500/30",
+    SEMINAR: "bg-orange-500/20 text-orange-400 border-orange-500/30",
   };
   return (
     <Badge variant="outline" className={colors[type] ?? "text-slate-400"}>
-      {type}
+      {LECTURE_TYPE_LABELS[type] ?? type}
     </Badge>
   );
 }
@@ -126,7 +130,7 @@ function LectureFormDialog({
       scheduled_at: "",
       duration_hours: "2 hours",
       location: "",
-      type: "Lecture" as LectureType,
+      type: "LECTURE" as LectureType,
       description: "",
     };
   });
@@ -168,6 +172,7 @@ function LectureFormDialog({
         type: form.type,
         description: form.description || undefined,
       };
+      console.log("Creating lecture with payload:", payload);
       create.mutate(payload, {
         onSuccess: (res) => {
           if (res.success) onOpenChange(false);
@@ -264,8 +269,8 @@ function LectureFormDialog({
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent className="border-slate-700 bg-slate-900">
-                  {["Lecture", "Lab", "Tutorial", "Seminar"].map((t) => (
-                    <SelectItem key={t} value={t} className="text-white">{t}</SelectItem>
+                  {(["LECTURE", "LAB", "TUTORIAL", "SEMINAR"] as LectureType[]).map((t) => (
+                    <SelectItem key={t} value={t} className="text-white">{LECTURE_TYPE_LABELS[t]}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>
@@ -337,6 +342,7 @@ function LectureFormDialog({
 
 // ── Main Page ──────────────────────────────────────────────────────────────
 export default function LecturesPage() {
+  const router = useRouter();
   const { data: lectures = [], isLoading } = useLectures();
   const { data: modules = [] } = useModules();
   const deleteLecture = useDeleteLecture();
@@ -462,7 +468,8 @@ export default function LecturesPage() {
             return (
               <Card
                 key={lec.id}
-                className="border-slate-800 bg-slate-900/50 backdrop-blur-sm hover:border-slate-700 transition-colors"
+                className="border-slate-800 bg-slate-900/50 backdrop-blur-sm hover:border-slate-700 transition-colors cursor-pointer group"
+                onClick={() => router.push(`/dashboard/live?lecture_id=${lec.id}`)}
               >
                 <CardContent className="p-5">
                   <div className="flex items-start justify-between">
@@ -478,17 +485,41 @@ export default function LecturesPage() {
                     </div>
                     <DropdownMenu>
                       <DropdownMenuTrigger asChild>
-                        <Button variant="ghost" size="icon" className="text-slate-400 hover:text-white">
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          className="text-slate-400 hover:text-white"
+                          onClick={(e: React.MouseEvent) => e.stopPropagation()}
+                        >
                           <MoreVertical className="h-4 w-4" />
                         </Button>
                       </DropdownMenuTrigger>
                       <DropdownMenuContent className="border-slate-700 bg-slate-900">
-                        <DropdownMenuItem onClick={() => handleEdit(lec)} className="text-white">
+                        <DropdownMenuItem
+                          onClick={(e: React.MouseEvent) => {
+                            e.stopPropagation();
+                            router.push(`/dashboard/live?lecture_id=${lec.id}`);
+                          }}
+                          className="text-cyan-400 focus:text-cyan-400"
+                        >
+                          <Radio className="mr-2 h-4 w-4" />
+                          View Live
+                        </DropdownMenuItem>
+                        <DropdownMenuItem
+                          onClick={(e: React.MouseEvent) => {
+                            e.stopPropagation();
+                            handleEdit(lec);
+                          }}
+                          className="text-white"
+                        >
                           <Pencil className="mr-2 h-4 w-4" />
                           Edit
                         </DropdownMenuItem>
                         <DropdownMenuItem
-                          onClick={() => handleDelete(lec.id)}
+                          onClick={(e: React.MouseEvent) => {
+                            e.stopPropagation();
+                            handleDelete(lec.id);
+                          }}
                           className="text-red-400 focus:text-red-400"
                         >
                           <Trash2 className="mr-2 h-4 w-4" />
@@ -536,6 +567,12 @@ export default function LecturesPage() {
                         style={{ width: `${attendanceRate}%` }}
                       />
                     </div>
+                  </div>
+
+                  {/* View Live hint */}
+                  <div className="mt-3 flex items-center gap-1.5 text-xs text-slate-600 group-hover:text-blue-400 transition-colors">
+                    <Eye className="h-3 w-3" />
+                    <span>Click to view live attendance</span>
                   </div>
                 </CardContent>
               </Card>

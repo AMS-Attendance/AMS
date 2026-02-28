@@ -54,6 +54,11 @@ export async function signupAction(payload: SignupPayload): Promise<AuthResponse
   try {
     const { name, email, password, role, index_number, degree, batch } = payload;
 
+    // Only students can self-register. Lecturers must be created by an admin.
+    if (role === "lecturer" || role === "admin") {
+      return { success: false, message: "Only student registration is allowed. Lecturers are registered by administrators." };
+    }
+
     // Check if email already exists
     const { data: existing } = await supabase
       .from("users")

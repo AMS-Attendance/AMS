@@ -17,7 +17,9 @@ export function LoginForm() {
   const login = useLogin();
 
   const [form, setForm] = useState<LoginFormData>({ email: "", password: "" });
-  const [errors, setErrors] = useState<Partial<Record<keyof LoginFormData, string>>>({});
+  const [errors, setErrors] = useState<
+    Partial<Record<keyof LoginFormData, string>>
+  >({});
   const [serverError, setServerError] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -51,7 +53,11 @@ export function LoginForm() {
     login.mutate(form, {
       onSuccess: (data) => {
         if (data.success) {
-          router.push("/dashboard");
+          if (data.user?.role === "admin") {
+            router.push("/admin");
+          } else {
+            router.push("/dashboard");
+          }
         } else {
           setServerError(data.message);
         }
@@ -95,12 +101,21 @@ export function LoginForm() {
 
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Checkbox id="remember" className="border-slate-600 data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600" />
-          <Label htmlFor="remember" className="text-sm text-slate-400 cursor-pointer">
+          <Checkbox
+            id="remember"
+            className="border-slate-600 data-[state=checked]:bg-blue-600 data-[state=checked]:border-blue-600"
+          />
+          <Label
+            htmlFor="remember"
+            className="text-sm text-slate-400 cursor-pointer"
+          >
             Remember me
           </Label>
         </div>
-        <Link href="/forgot-password" className="text-sm text-blue-400 hover:text-blue-300 transition-colors">
+        <Link
+          href="/forgot-password"
+          className="text-sm text-blue-400 hover:text-blue-300 transition-colors"
+        >
           Forgot password?
         </Link>
       </div>
@@ -118,7 +133,10 @@ export function LoginForm() {
         ) : (
           <>
             Sign In
-            <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight
+              size={16}
+              className="ml-2 group-hover:translate-x-1 transition-transform"
+            />
           </>
         )}
       </Button>
@@ -127,7 +145,10 @@ export function LoginForm() {
 
       <p className="text-center text-sm text-slate-400">
         Don&apos;t have an account?{" "}
-        <Link href="/signup" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">
+        <Link
+          href="/signup"
+          className="text-blue-400 hover:text-blue-300 font-medium transition-colors"
+        >
           Create one
         </Link>
       </p>

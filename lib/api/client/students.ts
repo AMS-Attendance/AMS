@@ -1,10 +1,15 @@
-import { useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
   getStudentsAction,
   getStudentsWithAttendanceAction,
   getBatchesAction,
   getDegreesAction,
+  checkRfidAction,
+  searchStudentsAction,
+  assignRfidAction,
+  registerStudentAction,
 } from "@/lib/api/server";
+import type { RegisterStudentPayload } from "@/lib/api/server";
 
 // ── Query keys ─────────────────────────────────────────────────────────────
 export const studentKeys = {
@@ -59,5 +64,48 @@ export function useDegrees() {
     queryFn: () => getDegreesAction(),
     staleTime: 1000 * 60 * 10,
     select: (res) => res.data ?? [],
+  });
+}
+
+// ── useCheckRfid ───────────────────────────────────────────────────────────
+export function useCheckRfid() {
+  return useMutation({
+    mutationFn: (rfid: string) => checkRfidAction(rfid),
+  });
+}
+
+// ── useSearchStudents ──────────────────────────────────────────────────────
+export function useSearchStudents() {
+  return useMutation({
+    mutationFn: (query: string) => searchStudentsAction(query),
+  });
+}
+
+// ── useAssignRfid ──────────────────────────────────────────────────────────
+export function useAssignRfid() {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationFn: ({ studentId, rfid }: { studentId: string; rfid: string }) =>
+      assignRfidAction(studentId, rfid),
+    onSuccess: (data) => {
+      if (data.success) {
+        queryClient.invalidateQueries({ queryKey: studentKeys.all });
+      }
+    },
+  });
+}
+
+// ── useRegisterStudent ─────────────────────────────────────────────────────
+export function useRegisterStudent() {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationFn: (payload: RegisterStudentPayload) => registerStudentAction(payload),
+    onSuccess: (data) => {
+      if (data.success) {
+        queryClient.invalidateQueries({ queryKey: studentKeys.all });
+      }
+    },
   });
 }

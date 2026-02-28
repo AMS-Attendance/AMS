@@ -73,7 +73,7 @@ export async function getDashboardStatsAction(): Promise<ApiResponse<DashboardSt
         .from("attendance")
         .select("id", { count: "exact", head: true })
         .in("lecture_id", lectureIds)
-        .in("status", ["PRESENT", "LATE"]);
+        .eq("status", "PRESENT");
 
       if (totalAttendance && totalAttendance > 0) {
         overallRate = Math.round(((presentCount ?? 0) / totalAttendance) * 100);
@@ -140,7 +140,7 @@ export async function getRecentLecturesAction(
         .from("attendance")
         .select("id", { count: "exact", head: true })
         .eq("lecture_id", lec.id)
-        .in("status", ["PRESENT", "LATE"]);
+        .eq("status", "PRESENT");
 
       result.push({
         id: lec.id,
@@ -204,7 +204,7 @@ export async function getModuleAttendanceSummaryAction(): Promise<
           .from("attendance")
           .select("id", { count: "exact", head: true })
           .in("lecture_id", lectureIds)
-          .in("status", ["PRESENT", "LATE"]);
+          .eq("status", "PRESENT");
 
         if (totalAttendance && totalAttendance > 0) {
           avgRate = Math.round(((presentCount ?? 0) / totalAttendance) * 100);

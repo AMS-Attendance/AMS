@@ -1,9 +1,16 @@
 import type { User } from "./auth";
 
 // ─── Enums ───────────────────────────────────────────────
-export type LectureType = "Lecture" | "Lab" | "Tutorial" | "Seminar";
+export type LectureType = "LECTURE" | "LAB" | "TUTORIAL" | "SEMINAR";
+
+export const LECTURE_TYPE_LABELS: Record<LectureType, string> = {
+  LECTURE: "Lecture",
+  LAB: "Lab",
+  TUTORIAL: "Tutorial",
+  SEMINAR: "Seminar",
+};
 export type LectureStatus = "SCHEDULED" | "COMPLETED" | "CANCELLED";
-export type AttendanceStatus = "PRESENT" | "ABSENT" | "LATE" | "EXCUSED";
+export type AttendanceStatus = "PRESENT" | "ABSENT";
 export type AttendanceMethod = "manual" | "rfid";
 
 // ─── Module ──────────────────────────────────────────────
@@ -65,7 +72,6 @@ export interface LectureWithStats extends Lecture {
   module_name: string;
   total_students: number;
   present_count: number;
-  late_count: number;
   absent_count: number;
 }
 
@@ -174,6 +180,40 @@ export interface SSEAttendanceEvent {
   type: "attendance_marked";
   data: AttendanceWithStudent;
   lecture_id: string;
+  timestamp: string;
+}
+
+// ─── Admin Dashboard ────────────────────────────────────
+export interface AdminStats {
+  total_lecturers: number;
+  total_students: number;
+  total_modules: number;
+  total_lectures: number;
+  active_students: number;
+  students_with_rfid: number;
+  overall_attendance_rate: number;
+  lectures_today: number;
+}
+
+export interface AdminLecturer {
+  id: string;
+  name: string;
+  email: string;
+  is_active: boolean;
+  created_at: string;
+  module_count: number;
+}
+
+export interface CreateLecturerPayload {
+  name: string;
+  email: string;
+  password: string;
+}
+
+export interface AdminRecentActivity {
+  id: string;
+  type: "lecture_created" | "student_registered" | "attendance_marked";
+  description: string;
   timestamp: string;
 }
 

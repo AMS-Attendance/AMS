@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import {
   Plus,
   Search,
@@ -13,6 +14,8 @@ import {
   UserPlus,
   UserMinus,
   Check,
+  BarChart3,
+  Eye,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -51,6 +54,8 @@ import {
   useAvailableStudents,
   useEnrollStudents,
   useUnenrollStudents,
+  useBatches,
+  useDegrees,
 } from "@/lib/api/client";
 import type { ModuleWithStats, CreateModulePayload, Student } from "@/lib/types";
 
@@ -220,34 +225,40 @@ function StudentPickerDialog({
 }) {
   const { data: enrolledStudents = [] } = useModuleStudents(moduleId);
   const { data: availableStudents = [] } = useAvailableStudents(moduleId);
+  const { data: batches = [] } = useBatches();
+  const { data: degrees = [] } = useDegrees();
   const enroll = useEnrollStudents();
   const unenroll = useUnenrollStudents();
 
   const [search, setSearch] = useState("");
+  const [filterBatch, setFilterBatch] = useState<string>("all");
+  const [filterDegree, setFilterDegree] = useState<string>("all");
   const [selectedToAdd, setSelectedToAdd] = useState<Set<string>>(new Set());
   const [selectedToRemove, setSelectedToRemove] = useState<Set<string>>(new Set());
   const [tab, setTab] = useState<"enrolled" | "add">("enrolled");
 
+  const applyFilters = (students: Student[]) =>
+    students.filter((s) => {
+      const matchSearch =
+        !search ||
+        s.name.toLowerCase().includes(search.toLowerCase()) ||
+        s.email.toLowerCase().includes(search.toLowerCase()) ||
+        s.index_number?.toLowerCase().includes(search.toLowerCase());
+      const matchBatch = filterBatch === "all" || String(s.batch) === filterBatch;
+      const matchDegree = filterDegree === "all" || s.degree === filterDegree;
+      return matchSearch && matchBatch && matchDegree;
+    });
+
   const filteredAvailable = useMemo(
-    () =>
-      availableStudents.filter(
-        (s) =>
-          s.name.toLowerCase().includes(search.toLowerCase()) ||
-          s.email.toLowerCase().includes(search.toLowerCase()) ||
-          s.index_number?.toLowerCase().includes(search.toLowerCase())
-      ),
-    [availableStudents, search]
+    () => applyFilters(availableStudents),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [availableStudents, search, filterBatch, filterDegree]
   );
 
   const filteredEnrolled = useMemo(
-    () =>
-      enrolledStudents.filter(
-        (s) =>
-          s.name.toLowerCase().includes(search.toLowerCase()) ||
-          s.email.toLowerCase().includes(search.toLowerCase()) ||
-          s.index_number?.toLowerCase().includes(search.toLowerCase())
-      ),
-    [enrolledStudents, search]
+    () => applyFilters(enrolledStudents),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [enrolledStudents, search, filterBatch, filterDegree]
   );
 
   const toggleAdd = (id: string) => {
@@ -264,6 +275,37 @@ function StudentPickerDialog({
     setSelectedToRemove(next);
   };
 
+  // Select / deselect all currently visible students
+  const handleSelectAllAdd = () => {
+    const visibleIds = filteredAvailable.map((s) => s.id);
+    const allSelected = visibleIds.every((id) => selectedToAdd.has(id));
+    if (allSelected) {
+      // Deselect all visible
+      const next = new Set(selectedToAdd);
+      visibleIds.forEach((id) => next.delete(id));
+      setSelectedToAdd(next);
+    } else {
+      // Select all visible
+      const next = new Set(selectedToAdd);
+      visibleIds.forEach((id) => next.add(id));
+      setSelectedToAdd(next);
+    }
+  };
+
+  const handleSelectAllRemove = () => {
+    const visibleIds = filteredEnrolled.map((s) => s.id);
+    const allSelected = visibleIds.every((id) => selectedToRemove.has(id));
+    if (allSelected) {
+      const next = new Set(selectedToRemove);
+      visibleIds.forEach((id) => next.delete(id));
+      setSelectedToRemove(next);
+    } else {
+      const next = new Set(selectedToRemove);
+      visibleIds.forEach((id) => next.add(id));
+      setSelectedToRemove(next);
+    }
+  };
+
   const handleEnroll = () => {
     if (selectedToAdd.size === 0) return;
     enroll.mutate(
@@ -278,6 +320,12 @@ function StudentPickerDialog({
       { module_id: moduleId, student_ids: Array.from(selectedToRemove) },
       { onSuccess: () => { setSelectedToRemove(new Set()); } }
     );
+  };
+
+  const handleResetFilters = () => {
+    setSearch("");
+    setFilterBatch("all");
+    setFilterDegree("all");
   };
 
   const StudentRow = ({
@@ -298,12 +346,19 @@ function StudentPickerDialog({
         <p className="text-sm font-medium text-white truncate">{student.name}</p>
         <p className="text-xs text-slate-500 truncate">
           {student.index_number ?? student.email}
+          {student.degree && ` · ${student.degree}`}
           {student.batch && ` · Batch ${student.batch}`}
         </p>
       </div>
       {selected && <Check className="h-4 w-4 text-blue-400 flex-shrink-0" />}
     </div>
   );
+
+  const currentFiltered = tab === "enrolled" ? filteredEnrolled : filteredAvailable;
+  const currentSelected = tab === "enrolled" ? selectedToRemove : selectedToAdd;
+  const allVisibleSelected =
+    currentFiltered.length > 0 &&
+    currentFiltered.every((s) => currentSelected.has(s.id));
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -317,7 +372,7 @@ function StudentPickerDialog({
           <Button
             variant={tab === "enrolled" ? "default" : "ghost"}
             size="sm"
-            onClick={() => { setTab("enrolled"); setSearch(""); }}
+            onClick={() => { setTab("enrolled"); setSearch(""); setFilterBatch("all"); setFilterDegree("all"); }}
             className={tab === "enrolled" ? "bg-blue-600" : "text-slate-400"}
           >
             Enrolled ({enrolledStudents.length})
@@ -325,7 +380,7 @@ function StudentPickerDialog({
           <Button
             variant={tab === "add" ? "default" : "ghost"}
             size="sm"
-            onClick={() => { setTab("add"); setSearch(""); }}
+            onClick={() => { setTab("add"); setSearch(""); setFilterBatch("all"); setFilterDegree("all"); }}
             className={tab === "add" ? "bg-blue-600" : "text-slate-400"}
           >
             <UserPlus className="mr-1 h-4 w-4" />
@@ -333,15 +388,73 @@ function StudentPickerDialog({
           </Button>
         </div>
 
-        {/* Search */}
-        <div className="relative">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
-          <Input
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search by name, email, or index..."
-            className="border-slate-700 bg-slate-900 pl-9 text-white"
-          />
+        {/* Filters: Search + Batch + Degree */}
+        <div className="space-y-2">
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
+            <Input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search by name, email, or index..."
+              className="border-slate-700 bg-slate-900 pl-9 text-white"
+            />
+          </div>
+          <div className="flex gap-2">
+            <Select value={filterBatch} onValueChange={setFilterBatch}>
+              <SelectTrigger className="border-slate-700 bg-slate-900 text-white flex-1">
+                <SelectValue placeholder="All Batches" />
+              </SelectTrigger>
+              <SelectContent className="border-slate-700 bg-slate-900">
+                <SelectItem value="all" className="text-white">All Batches</SelectItem>
+                {batches.map((b) => (
+                  <SelectItem key={b} value={String(b)} className="text-white">
+                    Batch {b}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Select value={filterDegree} onValueChange={setFilterDegree}>
+              <SelectTrigger className="border-slate-700 bg-slate-900 text-white flex-1">
+                <SelectValue placeholder="All Degrees" />
+              </SelectTrigger>
+              <SelectContent className="border-slate-700 bg-slate-900">
+                <SelectItem value="all" className="text-white">All Degrees</SelectItem>
+                {degrees.map((d) => (
+                  <SelectItem key={d} value={d} className="text-white">
+                    {d}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            {(filterBatch !== "all" || filterDegree !== "all") && (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={handleResetFilters}
+                className="text-slate-400 hover:text-white px-2"
+              >
+                Clear
+              </Button>
+            )}
+          </div>
+        </div>
+
+        {/* Select All + Count */}
+        <div className="flex items-center justify-between">
+          <p className="text-xs text-slate-500">
+            Showing {currentFiltered.length} student(s)
+            {currentSelected.size > 0 && ` · ${currentSelected.size} selected`}
+          </p>
+          {currentFiltered.length > 0 && (
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={tab === "enrolled" ? handleSelectAllRemove : handleSelectAllAdd}
+              className="text-xs text-blue-400 hover:text-blue-300 h-7 px-2"
+            >
+              {allVisibleSelected ? "Deselect All" : "Select All"}
+            </Button>
+          )}
         </div>
 
         {/* Student List */}
@@ -413,6 +526,7 @@ function StudentPickerDialog({
 
 // ── Main Page ──────────────────────────────────────────────────────────────
 export default function ModulesPage() {
+  const router = useRouter();
   const { data: modules = [], isLoading } = useModules();
   const deleteModule = useDeleteModule();
 
@@ -493,7 +607,8 @@ export default function ModulesPage() {
           {filtered.map((mod) => (
             <Card
               key={mod.id}
-              className="border-slate-800 bg-slate-900/50 backdrop-blur-sm hover:border-slate-700 transition-colors"
+              className="border-slate-800 bg-slate-900/50 backdrop-blur-sm hover:border-slate-700 transition-colors cursor-pointer group"
+              onClick={() => router.push(`/dashboard/modules/${mod.id}/attendance`)}
             >
               <CardHeader className="flex flex-row items-start justify-between pb-2">
                 <div>
@@ -504,21 +619,51 @@ export default function ModulesPage() {
                 </div>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" size="icon" className="text-slate-400 hover:text-white">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="text-slate-400 hover:text-white"
+                      onClick={(e: React.MouseEvent) => e.stopPropagation()}
+                    >
                       <MoreVertical className="h-4 w-4" />
                     </Button>
                   </DropdownMenuTrigger>
                   <DropdownMenuContent className="border-slate-700 bg-slate-900">
-                    <DropdownMenuItem onClick={() => handleEdit(mod)} className="text-white">
+                    <DropdownMenuItem
+                      onClick={(e: React.MouseEvent) => {
+                        e.stopPropagation();
+                        router.push(`/dashboard/modules/${mod.id}/attendance`);
+                      }}
+                      className="text-cyan-400 focus:text-cyan-400"
+                    >
+                      <BarChart3 className="mr-2 h-4 w-4" />
+                      View Attendance
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                      onClick={(e: React.MouseEvent) => {
+                        e.stopPropagation();
+                        handleEdit(mod);
+                      }}
+                      className="text-white"
+                    >
                       <Pencil className="mr-2 h-4 w-4" />
                       Edit
                     </DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => setStudentPickerModule(mod.id)} className="text-white">
+                    <DropdownMenuItem
+                      onClick={(e: React.MouseEvent) => {
+                        e.stopPropagation();
+                        setStudentPickerModule(mod.id);
+                      }}
+                      className="text-white"
+                    >
                       <Users className="mr-2 h-4 w-4" />
                       Manage Students
                     </DropdownMenuItem>
                     <DropdownMenuItem
-                      onClick={() => handleDelete(mod.id)}
+                      onClick={(e: React.MouseEvent) => {
+                        e.stopPropagation();
+                        handleDelete(mod.id);
+                      }}
                       className="text-red-400 focus:text-red-400"
                     >
                       <Trash2 className="mr-2 h-4 w-4" />
@@ -552,16 +697,39 @@ export default function ModulesPage() {
                   </Badge>
                 )}
 
-                {/* Quick student action */}
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="mt-3 w-full justify-center gap-2 text-blue-400 hover:bg-blue-500/10"
-                  onClick={() => setStudentPickerModule(mod.id)}
-                >
-                  <UserPlus className="h-4 w-4" />
-                  Manage Students
-                </Button>
+                {/* Quick actions */}
+                <div className="mt-3 flex gap-2">
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="flex-1 justify-center gap-2 text-blue-400 hover:bg-blue-500/10"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setStudentPickerModule(mod.id);
+                    }}
+                  >
+                    <UserPlus className="h-4 w-4" />
+                    Manage Students
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="flex-1 justify-center gap-2 text-cyan-400 hover:bg-cyan-500/10"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      router.push(`/dashboard/modules/${mod.id}/attendance`);
+                    }}
+                  >
+                    <BarChart3 className="h-4 w-4" />
+                    Attendance
+                  </Button>
+                </div>
+
+                {/* Click hint */}
+                <div className="mt-2 flex items-center gap-1.5 text-xs text-slate-600 group-hover:text-blue-400 transition-colors justify-center">
+                  <Eye className="h-3 w-3" />
+                  <span>Click to view attendance report</span>
+                </div>
               </CardContent>
             </Card>
           ))}
