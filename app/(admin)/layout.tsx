@@ -27,6 +27,7 @@ const adminNavItems = [
   { href: "/admin/lecturers", label: "Lecturers", icon: Users },
   { href: "/admin/students", label: "Students", icon: GraduationCap },
   { href: "/admin/modules", label: "Modules", icon: BookOpen },
+  { href: "/admin/rfid" , label: "RFID Registration", icon: Radio },
 ];
 
 function AdminSidebar({ onNavigate }: { onNavigate?: () => void }) {

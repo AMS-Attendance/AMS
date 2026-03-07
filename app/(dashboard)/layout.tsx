@@ -28,8 +28,6 @@ const navItems = [
   { href: "/dashboard/lectures", label: "Lectures", icon: BookOpen },
   { href: "/dashboard/modules", label: "Modules", icon: GraduationCap },
   { href: "/dashboard/students", label: "Students", icon: Users },
-  { href: "/dashboard/live", label: "Live Attendance", icon: Radio },
-  { href: "/dashboard/rfid", label: "RFID Registration", icon: CreditCard },
 ];
 
 function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
