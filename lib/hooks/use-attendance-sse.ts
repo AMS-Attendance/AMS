@@ -30,9 +30,13 @@ export function useAttendanceSSE(lectureId: string | null) {
       try {
         const parsed: SSEAttendanceEvent = JSON.parse(event.data);
         setRecords((prev) => {
-          // Avoid duplicates
-          const exists = prev.some((r) => r.id === parsed.data.id);
-          if (exists) return prev;
+          // Upsert by id: update existing record if it already exists (e.g. status changed)
+          const idx = prev.findIndex((r) => r.id === parsed.data.id);
+          if (idx !== -1) {
+            const updated = [...prev];
+            updated[idx] = parsed.data;
+            return updated;
+          }
           return [...prev, parsed.data];
         });
       } catch {

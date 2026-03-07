@@ -72,8 +72,8 @@ export async function GET(req: NextRequest) {
               .from("attendance")
               .select("*")
               .eq("lecture_id", lectureId)
-              .gt("created_at", lastChecked)
-              .order("created_at", { ascending: true });
+              .gt("updated_at", lastChecked)
+              .order("updated_at", { ascending: true });
 
             if (newRecords && newRecords.length > 0) {
               // Fetch student info for each new record
@@ -105,7 +105,7 @@ export async function GET(req: NextRequest) {
                     rfid: student?.rfid ?? null,
                   },
                   lecture_id: lectureId,
-                  timestamp: record.created_at,
+                  timestamp: record.updated_at,
                 };
 
                 controller.enqueue(
@@ -113,8 +113,8 @@ export async function GET(req: NextRequest) {
                 );
               }
 
-              // Update checkpoint to latest record
-              lastChecked = newRecords[newRecords.length - 1].created_at;
+              // Update checkpoint to latest updated_at seen
+              lastChecked = newRecords[newRecords.length - 1].updated_at;
             }
 
             // Send heartbeat to keep connection alive

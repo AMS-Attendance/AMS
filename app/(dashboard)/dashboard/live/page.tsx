@@ -242,13 +242,11 @@ function LiveAttendancePage() {
   const [newIds, setNewIds] = useState<Set<string>>(new Set());
   const prevCountRef = useRef(0);
 
-  // Merge existing + SSE records
-  const allRecords = [...existingRecords];
-  for (const ssr of sseRecords) {
-    if (!allRecords.some((r) => r.id === ssr.id)) {
-      allRecords.push(ssr);
-    }
-  }
+  // Merge existing + SSE records — SSE takes precedence for status updates
+  const recordMap = new Map<string, AttendanceWithStudent>();
+  for (const r of existingRecords) recordMap.set(r.id, r);
+  for (const r of sseRecords) recordMap.set(r.id, r); // SSE overwrites stale status
+  const allRecords = Array.from(recordMap.values());
 
   // Sort by timestamp descending (newest first)
   allRecords.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());

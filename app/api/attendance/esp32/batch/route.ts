@@ -140,6 +140,7 @@ export async function POST(req: NextRequest) {
       method: string;
       timestamp: string;
       remarks: string | null;
+      updated_at: string;
     }> = [];
 
     // Track already-seen student IDs in this batch to avoid duplicates within the batch
@@ -173,6 +174,7 @@ export async function POST(req: NextRequest) {
         method: "rfid",
         timestamp,
         remarks: `ESP32 scan at ${scan.time ?? "unknown time"}`,
+        updated_at: new Date().toISOString(),
       });
     }
 

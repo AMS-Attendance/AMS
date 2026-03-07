@@ -38,7 +38,6 @@ export async function getLectureAttendanceAction(
       .from("attendance")
       .select("*")
       .eq("lecture_id", lectureId)
-      .eq("status", "PRESENT")
       .order("timestamp", { ascending: true });
 
     if (error) return { success: false, message: error.message };
