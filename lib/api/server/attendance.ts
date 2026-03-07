@@ -38,6 +38,7 @@ export async function getLectureAttendanceAction(
       .from("attendance")
       .select("*")
       .eq("lecture_id", lectureId)
+      .eq("status", "PRESENT")
       .order("timestamp", { ascending: true });
 
     if (error) return { success: false, message: error.message };
@@ -161,6 +162,54 @@ export async function bulkMarkAttendanceAction(
       success: true,
       message: `${records.length} attendance record(s) marked`,
     };
+  } catch (err) {
+    return { success: false, message: (err as Error).message };
+  }
+}
+
+// ── Update Attendance Status to ABSENT (delete from live view) ─────────────
+export async function updateAttendanceStatusAction(
+  attendanceId: string,
+  status: "PRESENT" | "ABSENT"
+): Promise<ApiResponse> {
+  try {
+    const session = await getSession();
+    if (!session) return { success: false, message: "Unauthorized" };
+
+    // Verify the record belongs to a lecture owned by this lecturer
+    const { data: record } = await supabase
+      .from("attendance")
+      .select("lecture_id")
+      .eq("id", attendanceId)
+      .single();
+
+    if (!record) return { success: false, message: "Attendance record not found" };
+
+    const { data: lec } = await supabase
+      .from("lectures")
+      .select("module_id")
+      .eq("id", record.lecture_id)
+      .single();
+
+    if (!lec) return { success: false, message: "Lecture not found" };
+
+    const { data: mod } = await supabase
+      .from("modules")
+      .select("id")
+      .eq("id", lec.module_id)
+      .eq("lecturer_id", session.id)
+      .single();
+
+    if (!mod) return { success: false, message: "Unauthorized" };
+
+    const { error } = await supabase
+      .from("attendance")
+      .update({ status, updated_at: new Date().toISOString() })
+      .eq("id", attendanceId);
+
+    if (error) return { success: false, message: error.message };
+
+    return { success: true, message: `Attendance updated to ${status}` };
   } catch (err) {
     return { success: false, message: (err as Error).message };
   }

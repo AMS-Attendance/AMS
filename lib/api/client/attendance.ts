@@ -3,6 +3,7 @@ import {
   getLectureAttendanceAction,
   markAttendanceAction,
   bulkMarkAttendanceAction,
+  updateAttendanceStatusAction,
 } from "@/lib/api/server";
 import type { MarkAttendancePayload } from "@/lib/types";
 import { lectureKeys } from "./lectures";
@@ -60,6 +61,30 @@ export function useBulkMarkAttendance() {
       if (data.success) {
         queryClient.invalidateQueries({
           queryKey: attendanceKeys.byLecture(variables.lectureId),
+        });
+        queryClient.invalidateQueries({ queryKey: lectureKeys.all });
+        queryClient.invalidateQueries({ queryKey: dashboardKeys.stats() });
+      }
+    },
+  });
+}
+
+// ── useUpdateAttendanceStatus ──────────────────────────────────────────────
+export function useUpdateAttendanceStatus(lectureId: string) {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationFn: ({
+      attendanceId,
+      status,
+    }: {
+      attendanceId: string;
+      status: "PRESENT" | "ABSENT";
+    }) => updateAttendanceStatusAction(attendanceId, status),
+    onSuccess: (data) => {
+      if (data.success) {
+        queryClient.invalidateQueries({
+          queryKey: attendanceKeys.byLecture(lectureId),
         });
         queryClient.invalidateQueries({ queryKey: lectureKeys.all });
         queryClient.invalidateQueries({ queryKey: dashboardKeys.stats() });

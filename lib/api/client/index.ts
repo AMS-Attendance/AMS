@@ -3,5 +3,5 @@ export { useDashboardStats, useRecentLectures, useModuleAttendanceSummary, dashb
 export { useModules, useModuleById, useCreateModule, useUpdateModule, useDeleteModule, useModuleStudents, useAvailableStudents, useEnrollStudents, useUnenrollStudents, moduleKeys } from "./modules";
 export { useLectures, useLectureById, useCreateLecture, useUpdateLecture, useDeleteLecture, lectureKeys } from "./lectures";
 export { useStudents, useStudentsWithAttendance, useBatches, useDegrees, useCheckRfid, useSearchStudents, useAssignRfid, useRegisterStudent, studentKeys } from "./students";
-export { useLectureAttendance, useMarkAttendance, useBulkMarkAttendance, attendanceKeys } from "./attendance";
+export { useLectureAttendance, useMarkAttendance, useBulkMarkAttendance, useUpdateAttendanceStatus, attendanceKeys } from "./attendance";
 export { useAdminStats, useAdminLecturers, useCreateLecturer, useToggleLecturerActive, useDeleteLecturer, useAdminStudents, useToggleStudentActive, useAdminModules, useAdminRecentActivity, adminKeys } from "./admin";

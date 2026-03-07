@@ -12,6 +12,7 @@ import {
   CreditCard,
   User,
   ZapOff,
+  Trash2,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -24,7 +25,15 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { useLectures, useLectureAttendance } from "@/lib/api/client";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { useLectures, useLectureAttendance, useUpdateAttendanceStatus } from "@/lib/api/client";
 import { useAttendanceSSE, type SSEStatus } from "@/lib/hooks/use-attendance-sse";
 import type { AttendanceWithStudent } from "@/lib/types";
 
@@ -64,7 +73,17 @@ function ConnectionStatus({ status, onReconnect }: { status: SSEStatus; onReconn
 }
 
 // ── Attendance Feed Item ───────────────────────────────────────────────────
-function FeedItem({ record, isNew }: { record: AttendanceWithStudent; isNew: boolean }) {
+function FeedItem({
+  record,
+  isNew,
+  onDelete,
+}: {
+  record: AttendanceWithStudent;
+  isNew: boolean;
+  onDelete: (id: string) => void;
+}) {
+  const [confirmOpen, setConfirmOpen] = useState(false);
+  console.log("Rendering FeedItem for record:", record);
   const statusConfig: Record<string, { color: string; icon: React.ElementType }> = {
     PRESENT: { color: "text-green-400 bg-green-500/20 border-green-500/30", icon: CheckCircle2 },
     ABSENT: { color: "text-red-400 bg-red-500/20 border-red-500/30", icon: AlertCircle },
@@ -76,15 +95,12 @@ function FeedItem({ record, isNew }: { record: AttendanceWithStudent; isNew: boo
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
+    timeZone: "UTC",
   });
 
   return (
     <div
-      className={`flex items-center gap-3 rounded-lg border p-3 transition-all duration-500 ${
-        isNew
-          ? "border-blue-500/50 bg-blue-500/10 animate-pulse"
-          : "border-slate-800 bg-slate-800/30"
-      }`}
+      className={`flex items-center gap-3 rounded-lg border p-3 transition-all duration-500 border-slate-800 bg-slate-800/30 `}
     >
       {/* Method icon */}
       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-800">
@@ -114,6 +130,49 @@ function FeedItem({ record, isNew }: { record: AttendanceWithStudent; isNew: boo
         </Badge>
         <span className="text-xs text-slate-500">{time}</span>
       </div>
+      <div className="flex-shrink-0">
+        <Button
+          variant="ghost"
+          size="sm"
+          className="text-red-400 hover:text-red-500 hover:bg-red-500/10 cursor-pointer"
+          onClick={() => setConfirmOpen(true)}
+        >
+          <Trash2/>
+        </Button>
+      </div>
+
+      {/* Confirmation Dialog */}
+      <Dialog open={confirmOpen} onOpenChange={setConfirmOpen}>
+        <DialogContent className="border-slate-800 bg-slate-900 text-white">
+          <DialogHeader>
+            <DialogTitle className="text-white">Remove Attendance Record</DialogTitle>
+            <DialogDescription className="text-slate-400">
+              This will mark{" "}
+              <span className="font-semibold text-white">{record.student_name}</span>{" "}
+              as <span className="font-semibold text-red-400">ABSENT</span>. Are you sure?
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter className="gap-2">
+            <Button
+              variant="ghost"
+              className="text-slate-400 hover:text-white"
+              onClick={() => setConfirmOpen(false)}
+            >
+              Cancel
+            </Button>
+            <Button
+              variant="destructive"
+              onClick={() => {
+                setConfirmOpen(false);
+                onDelete(record.id);
+              }}
+            >
+              <Trash2 className="mr-2 h-4 w-4" />
+              Remove
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
@@ -165,6 +224,11 @@ function LiveAttendancePage() {
   const { records: sseRecords, status, reconnect } = useAttendanceSSE(
     selectedLecture || null
   );
+  const { mutate: updateStatus } = useUpdateAttendanceStatus(selectedLecture);
+
+  const handleDelete = (id: string) => {
+    updateStatus({ attendanceId: id, status: "ABSENT" });
+  };
 
   // Auto-select lecture from URL search param
   useEffect(() => {
@@ -213,14 +277,12 @@ function LiveAttendancePage() {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="heading-font text-2xl font-bold text-white flex items-center gap-2">
-            <Radio className="h-6 w-6 text-red-400" />
-            Live Attendance
+            {selectedLectureData ? `${selectedLectureData.title}` : "Lecture"} Attendance 
           </h1>
           <p className="text-sm text-slate-400">
-            Real-time attendance monitoring via SSE
+            Attendance monitoring for the lecture
           </p>
         </div>
-        {selectedLecture && <ConnectionStatus status={status} onReconnect={reconnect} />}
       </div>
 
       {/* Lecture Selector */}
@@ -279,13 +341,7 @@ function LiveAttendancePage() {
           <Card className="border-slate-800 bg-slate-900/50">
             <CardHeader className="flex flex-row items-center justify-between pb-3">
               <CardTitle className="text-lg text-white flex items-center gap-2">
-                Live Feed
-                {status === "connected" && (
-                  <span className="relative flex h-2 w-2">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                    <span className="relative inline-flex h-2 w-2 rounded-full bg-red-500" />
-                  </span>
-                )}
+                Student Attendance 
               </CardTitle>
               <Badge variant="outline" className="text-slate-400 border-slate-700">
                 {allRecords.length} records
@@ -310,6 +366,7 @@ function LiveAttendancePage() {
                         key={record.id}
                         record={record}
                         isNew={newIds.has(record.id)}
+                        onDelete={handleDelete}
                       />
                     ))}
                   </div>
